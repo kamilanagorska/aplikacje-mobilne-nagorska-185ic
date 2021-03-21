@@ -63,11 +63,13 @@ export default class App extends Component{
       //3 kolumny liczb
       for(let j=0;j<3; j++){
         //dodawanie kolejnych elementow do tablicy row
+        //utworzenie wiesza z 3 pozycjami
         row.push(<TouchableOpacity onPress={() => this.onPressed(numbers[i][j])} style={styles.button1}>
           <Text style={styles.text}>{numbers[i][j]}</Text>
         </TouchableOpacity>)
       }
       //dodawanie kolejnych elementow do tablicy rows
+      //dodanie wiersza do tablicy
       rows.push(<View style={styles.row}>{row}</View>)
     }
     //operacje jakie potrzebujemy
