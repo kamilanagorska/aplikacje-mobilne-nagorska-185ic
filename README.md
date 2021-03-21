@@ -3,7 +3,7 @@
 **Grupa:** 185IC A2
 
 ### Laboratorium 1 
-Prosty kalkulator [WKRÓTCE]
+[Prosty kalkulator](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium1)
 
 ### Laboratorium 2
 Responsywne layouty + nawigacja [WKRÓTCE]
