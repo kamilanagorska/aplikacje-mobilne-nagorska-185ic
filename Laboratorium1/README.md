@@ -44,4 +44,4 @@ Na końcu zdefiniowałam StyleSheet, w którym umieściłam style dla wybranych 
 
 #### Działanie na telefonie
 
-![10](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/10.png?raw=true)
+![10](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/10.jpg?raw=true)
