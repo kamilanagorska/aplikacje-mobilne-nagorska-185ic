@@ -5,6 +5,7 @@ Spis treści:
 - opisanie kodu
 - działanie na telefonie
 
+#### Opisanie kodu
 Zdefiniowałam w stanie dwa elementy: toCalculate i result. W pierwszym z nich przechowywane będzie działanie, jakie wpisze użytkownik, a w drugim wynik. 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/1.png?raw=true)
@@ -39,3 +40,8 @@ Na końcu zdefiniowałam StyleSheet, w którym umieściłam style dla wybranych 
 ![8](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/8.png?raw=true)
 
 ![9](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/9.png?raw=true)
+
+
+#### Działanie na telefonie
+
+![10](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/10.png?raw=true)
