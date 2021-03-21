@@ -43,5 +43,31 @@ Na końcu zdefiniowałam StyleSheet, w którym umieściłam style dla wybranych 
 
 
 #### Działanie na telefonie
+Tak prezentuje się gotowa aplikacja:
 
 ![10](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/10.jpg?raw=true)
+
+Wykonanie prostego działania: 
+
+![11](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/11.jpg?raw=true)
+
+Jak widać obliczenia pojawiają się na górze, a na dole wynik. Trochę trudniejsze działanie:
+
+![12](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/12.jpg?raw=true)
+
+Gdy wciśniemy symbol ⌫ usunięty zostaje ostatni wpisany znak, czyli 2:
+
+![13](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/13.jpg?raw=true)
+
+Natomiast, gdy wciśniemy C usunięte zostaje wszystko:
+
+![14](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/14.jpg?raw=true)
+
+Działanie z wykorzystaniem kropki:
+
+![15](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/15.jpg?raw=true)
+
+Gdy użytkownik wciśnie znak równia się, a ostatnim elementem wpisanym jest np. +, to nic się nie dzieje, nie jest zwracany błąd, walidacja za pomocą metody checkIfOk() działa.
+
+![16](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium1/screenshots/16.jpg?raw=true)
+
