@@ -11,13 +11,16 @@ const Stack = createStackNavigator();
 
 function App() {
   return (
+    //do nawigacji
     <NavigationContainer>
       <Stack.Navigator>
+        {/*pierwszy ekran*/}
       <Stack.Screen options={{
         title: '✧･ﾟ Witaj ･ﾟ✧',
         headerStyle: {
           backgroundColor: '#f5e1e7',
         },
+        //kolor strzałki
         headerTintColor: 'white',
         headerTitleStyle: {
           fontSize: 30,
@@ -26,6 +29,8 @@ function App() {
         }
       }}
       name="Strona Główna" component={Home} />
+
+      {/*drugi ekran*/}
         <Stack.Screen options={{
         title: '-ˏˋ⋆ Spread Operator ⋆ˊˎ-',
         headerStyle: {
@@ -39,6 +44,8 @@ function App() {
         }
       }}
       name="Spread Operator" component={SpreadOp} />
+
+      {/*trzeci ekran*/}
          <Stack.Screen options={{
         title: '-ˏˋ⋆ Rest Parameters ⋆ˊˎ-',
         headerStyle: {
@@ -52,6 +59,8 @@ function App() {
         }
       }}
       name="Rest Parameters" component={RestParam} />
+      
+      {/*czwarty ekran*/}
          <Stack.Screen options={{
         title: '-ˏˋ⋆ useState ⋆ˊˎ-',
         headerStyle: {
