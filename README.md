@@ -6,7 +6,7 @@
 [Prosty kalkulator](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium1)
 
 ### Laboratorium 2
-Responsywne layouty + nawigacja [WKRÓTCE]
+[Responsywne layouty + nawigacja](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium2)
 
 ### Laboratorium 3
 Renderowanie listy danych + obsługa progresu [WKRÓTCE]
