@@ -13,10 +13,58 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-      <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Spread Operator" component={SpreadOp} />
-         <Stack.Screen name="Rest Param" component={RestParam} />
-         <Stack.Screen name="useState" component={UseState} />
+      <Stack.Screen options={{
+        title: '✧･ﾟ Witaj ･ﾟ✧',
+        headerStyle: {
+          backgroundColor: '#f5e1e7',
+        },
+        headerTintColor: 'white',
+        headerTitleStyle: {
+          fontSize: 30,
+          textAlign: 'center',
+          color: 'white'
+        }
+      }}
+      name="Strona Główna" component={Home} />
+        <Stack.Screen options={{
+        title: '-ˏˋ⋆ Spread Operator ⋆ˊˎ-',
+        headerStyle: {
+          backgroundColor: '#f5e1e7',
+        },
+        headerTintColor: 'white',
+        headerTitleStyle: {
+          fontSize: 25,
+          textAlign: 'center',
+          color: 'white'
+        }
+      }}
+      name="Spread Operator" component={SpreadOp} />
+         <Stack.Screen options={{
+        title: '-ˏˋ⋆ Rest Parameters ⋆ˊˎ-',
+        headerStyle: {
+          backgroundColor: '#f5e1e7',
+        },
+        headerTintColor: 'white',
+        headerTitleStyle: {
+          fontSize: 25,
+          textAlign: 'center',
+          color: 'white'
+        }
+      }}
+      name="Rest Parameters" component={RestParam} />
+         <Stack.Screen options={{
+        title: '-ˏˋ⋆ useState ⋆ˊˎ-',
+        headerStyle: {
+          backgroundColor: '#f5e1e7',
+        },
+        headerTintColor: 'white',
+        headerTitleStyle: {
+          fontSize: 25,
+          textAlign: 'center',
+          color: 'white'
+        }
+      }}
+      name="useState" component={UseState} />
       </Stack.Navigator>
     </NavigationContainer>
   );
