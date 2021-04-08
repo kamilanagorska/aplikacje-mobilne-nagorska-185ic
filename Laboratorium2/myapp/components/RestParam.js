@@ -21,7 +21,8 @@ export default function RestParam({navigation}) {
       <View style={styles.rest.container}>
         <View style={styles.rest.text}>
           <View style={styles.rest.op}>
-          <Text style={styles.rest.optxt}>Składnia ta pozwala funkcji na przyjmowanie wielu parametów. Zapewnia sposób reprezentowania funkcji wariadycznych w JavaScript (z niestałą liczbą argumentów).</Text>
+          <Text style={styles.rest.optxt}>Składnia ta pozwala funkcji na przyjmowanie wielu pa- rametów. 
+          Zapewnia sposób reprezentowania funkcji waria- dycznych w JavaScript (z niestałą liczbą argumentów).</Text>
           </View>
           <View style={styles.rest.ex}>
             <Text style={styles.rest.extxt1}>･༓ Przykład ༓･</Text>

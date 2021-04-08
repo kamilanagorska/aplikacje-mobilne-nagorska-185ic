@@ -36,8 +36,8 @@ export default function UseState({navigation}) {
 
         <View style={styles.state.descr}>
           <View style={styles.state.text}>
-          <Text style={styles.rest.optxt}>Jest to hook, który pozwala korzystać ze stanu w komponencie funkcyjnym. Wywołanie useState deklaruje "zmienną stanu".
-          Jest to sposób na przechowywanie wartości stanu w React'cie.</Text>
+          <Text style={styles.rest.optxt}>Jest to hook, który pozwala korzystać ze stanu w komponencie funkcyjnym. Wywołanie use- State deklaruje "zmienną sta- nu".
+          Jest to sposób na prze- chowywanie wartości stanu w React'cie.</Text>
           </View>
           <View style={styles.state.ex}>
           <Text style={styles.rest.extxt1}>･༓ Przykład ༓･</Text>

@@ -70,8 +70,9 @@ styles.rest = StyleSheet.create({
     optxt: {
         color: '#999697',
         marginTop: '10%',
-        fontSize: 23,
-        marginLeft: 5
+        fontSize: 22,
+        marginLeft: 5,
+        textAlign: 'justify'
     },
     extxt1: {
         color: '#999697',

@@ -17,7 +17,7 @@ export default function SpreadOp({navigation}) {
       <View style={styles.spread.container}>
         <View style={styles.spread.top}>
           <View style={styles.spread.desc}>
-          <Text style={styles.rest.optxt}>Składnia (...) umożliwia rozbijanie iterowanej wartości na składowe. Mogą nimi być
+          <Text style={styles.rest.optxt}>Składnia (...) umożliwia rozbi- janie iterowanej wartości na składowe. Mogą nimi być
           stringi (bo składają się z poszczególnych liter), tablice (bo składają się z elementów) oraz kolekcje lub obiekty, po których często robimy pętle. </Text>
           </View>
           <View style={styles.spread.buttons}>
