@@ -1,23 +1,19 @@
-import * as React from 'react';
-import { TouchableOpacity, View, Text, Image } from 'react-native';
-
-export default function Lazy({navigation}) {
+import React, {Suspense} from 'react';
+import { View, Text} from 'react-native';
+import styles from './style'
+//React.lazy jako argument przyjmuje funkcje, ktora wywoluje dynamiczny import(), musi zwrócić obiekt Promise
+//Suspense powoduje, ze na czas ładowania wyświetlny zostaje komponent zastępczy (jakis wskaźnik ładowania)
+const GenerateComponent = React.lazy(() => import('./Generate'));
+export default function Lazy() {
     return (
-      <View >
-        <View>
-          <Text>✧ Laboratorium 2 ✧</Text>
-          <Image source={{ uri: 'https://www.vippng.com/png/full/226-2260212_mochiko-pixel-kawaii-cake.png'}} />
+      <View style={styles.home.container}>
+        <View style ={styles.lazy.description}>
+          <Text style={styles.sort.text}> "Leniwe ładowanie" 50000 pseudolosowych liter</Text>
         </View>
-        <View>
-        <TouchableOpacity  onPress={() => navigation.push('home')}>
-            <Text>Strona główna</Text>
-        </TouchableOpacity >
-        <TouchableOpacity onPress={() => navigation.push('sort')}>
-            <Text>Sortowanie</Text>
-        </TouchableOpacity >
-        <TouchableOpacity onPress={() => navigation.push('step1')}>
-            <Text>Step progress</Text>
-        </TouchableOpacity >
+        <View style={styles.lazy.letters}>
+          <Suspense fallback={<Text style={styles.sort.text}>Ładowanie...</Text>}>
+            <GenerateComponent />
+          </Suspense>
         </View>
       </View>
     );

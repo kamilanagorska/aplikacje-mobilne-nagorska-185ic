@@ -71,7 +71,7 @@ styles.sort = StyleSheet.create({
     },
     numbers: {
         flex: 5,
-        backgroundColor: '#abb6c4',
+        backgroundColor: '#a7bad4',
         justifyContent: 'center',
         alignItems: 'center',
         marginVertical: 10,
@@ -108,5 +108,67 @@ styles.sort = StyleSheet.create({
         fontSize: 20
     }
 });
+
+styles.lazy = StyleSheet.create({
+    description: {
+        backgroundColor: '#abb6c4',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginVertical: 10,
+        marginLeft: 20,
+        marginRight: 20,
+        borderRadius: 10,
+        height: 50
+    },
+    letters: {
+        flex: 3,
+        backgroundColor: '#a7bad4',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginVertical: 10,
+        marginLeft: 20,
+        marginRight: 20,
+        borderRadius: 10,
+    },
+    letText: {
+        color: 'white',
+        marginTop: 5,
+        margin: 5,
+        fontSize: 20,
+        textAlign: 'justify'
+    }
+});
+styles.step = StyleSheet.create({
+    description: {
+        backgroundColor: '#abb6c4',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginVertical: 10,
+        marginLeft: 20,
+        marginRight: 20,
+        borderRadius: 10,
+        height: 60
+    },
+    progress: {
+        flex: 2
+    },
+    screen: {
+        backgroundColor: '#a7bad4',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        marginVertical: 10,
+        marginLeft: 20,
+        marginRight: 20,
+        borderRadius: 10,
+        height: 350,
+    },
+    text: {
+        color: 'white',
+        fontSize: 22,
+        textAlign: 'center',
+        marginRight: 5,
+        marginLeft: 5
+    },
+})
 
 export default styles

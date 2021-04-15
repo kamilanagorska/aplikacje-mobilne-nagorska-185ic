@@ -8,9 +8,9 @@ export default class Sort extends Component {
         super();
         //pusta tablica, w której będą nasze losowe liczby
         const numbers = [];
-        //generowanie 100 pseudolosowych liczb z zakresu (1,1000)
+        //generowanie 100 pseudolosowych liczb z zakresu (0,1000)
         for (let i=0; i<100; i++) {
-            numbers.push(Math.floor(Math.random() * 1000) + 1);
+            numbers.push(Math.floor(Math.random() * 999) + 1);
         }
         //stan
         this.state = {
@@ -36,7 +36,7 @@ export default class Sort extends Component {
     generate(){
         const newNumbers = [];
         for (let i=0; i<100; i++) {
-            newNumbers.push(Math.floor(Math.random() * 1000) + 1);
+            newNumbers.push(Math.floor(Math.random() * 999) + 1);
         }
         //podstawienie do stanu nowej tablicy
         //powoduje ponowne wyrenderowanie
