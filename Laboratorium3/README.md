@@ -8,19 +8,19 @@ Aplikacja z renderowaniem listy danych i obsługą postępu.
 ### Opisanie kodu
 #### App.js
 W pliku tym wykorzystałam react-navigation do utworzenia 4 ekranów:
-- [strona główna](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3#opisanie-kodu)
+- [strona główna](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3#strona-g%C5%82%C3%B3wna)
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/1.png?raw=true)
 
-- [sortowanie](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3#opisanie-kodu)
+- [sortowanie](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3#sortowanie)
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/2.png?raw=true)
 
-- [lazy loading](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3#opisanie-kodu)
+- [lazy loading](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3#lazy-loading)
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/3.png?raw=true)
 
-- [step progress](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3#opisanie-kodu)
+- [step progress](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3#step-progress)
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/4.png?raw=true)
 
@@ -30,7 +30,7 @@ Umieściłam tutaj 3 guziki umożliwiające przejście do wybranego ekranu: sort
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/5.png?raw=true)
 
 #### Sortowanie
-Komponent klasowy odpowiadający za sortowanie i generacje 100 pseudolosowych liczb z przedziału (0,1000). W konstruktorze umieściłam pętle, która za pomocą Math.random generuje pseudolosowe liczby i umieszcza je w tablicy. Tablica ta zapisywana jest w stanie wraz z sortedUp (definiuje, czy tablica została posortowana w górę) i sortedDown (definiuje, czy tablica została posortowana w dół). Poniżej związałam metody z instancją komponentu.
+Komponent klasowy odpowiadający za sortowanie i generacje 100 pseudolosowych liczb z przedziału (0,1000). W konstruktorze umieściłam pętle, która za pomocą Math.random() generuje pseudolosowe liczby i umieszcza je w tablicy. Tablica ta zapisywana jest w stanie wraz z sortedUp (definiuje, czy tablica została posortowana w górę) i sortedDown (definiuje, czy tablica została posortowana w dół). Poniżej związałam metody z instancją komponentu.
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/6.png?raw=true)
 
@@ -51,7 +51,7 @@ Utworzone metody:
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/10.png?raw=true)
 
-W render() umieściłam 3 "guziki" (TouchableOpacity) umożliwiające wygenerowanie nowych liczb, posortowanie w góre lub w dół. Wywołuje tam też funkcję writeNumbers, by wygenerowane liczby wyświetlały się w aplikacji. 
+W render() umieściłam 3 "guziki" (TouchableOpacity) umożliwiające wygenerowanie nowych liczb, posortowanie w góre lub w dół. Wywołuję tam również funkcję writeNumbers, by wygenerowane liczby wyświetlały się w aplikacji. 
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/11.png?raw=true)
 
@@ -77,7 +77,7 @@ Na drugim "ekranie" umieściłam element ten w kolorze ciemnoniebieskim i rozmia
 
 ![3](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/16.png?raw=true)
 
-Na ostanim "ekranie" znajduje się ActivityIndicator w kolorze jasnoniebieskim i rozmiarze large, ale uzyłam transform by powiększyć ten element jeszcze bardziej (scale:3).
+Na ostanim "ekranie" znajduje się ActivityIndicator w kolorze jasnoniebieskim i rozmiarze large, ale użyłam transform by powiększyć ten element jeszcze bardziej (scale: 3).
 
 ![3](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/17.png?raw=true)
 
@@ -103,12 +103,9 @@ W każdym momencie można wcisnąć guzik Wygeneruj i na ekranie pojawi się zes
 
 ![3](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/5.jpg?raw=true)
 
-Gdy wybierzemy ekran Lazy loading ukazuje się napis "Ładowanie...":
+Gdy wybierzemy ekran Lazy loading ukazuje się napis "Ładowanie...". Po chwili napis ten znika, a pojawia się ciąg 50 tysięcy pseudolosowych liter:
 
 ![3](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/6.jpg?raw=true)
-
-Po chwili napis ten znika, a pojawia się ciąg 50 tysięcy pseudolosowych liter:
-
 ![3](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium3/screenshots/7.jpg?raw=true)
 
 Jeśli wybierzemy ekran Step progress wyświetla nam się ekran podzielony na trzy kroki, na każdym z nich kręci się kółeczko (ActivityIndicator) w innym kolorze i rozmiarze. 
