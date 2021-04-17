@@ -19,6 +19,7 @@ export default class Sort extends Component {
             sortedDown: 0
         };
         //te funkcje powodują zmiany
+        //związanie metod z instancją komponentu
         this.writeNumbers = this.writeNumbers.bind(this);
         this.generate = this.generate.bind(this);
         this.sortDown = this.sortDown.bind(this);
@@ -26,9 +27,10 @@ export default class Sort extends Component {
     }
     //wypisanie liczb w aplikacji
     writeNumbers(numbers) {
+        let i = 0;
         return(
             <View style={styles.sort.numbers}>
-                {numbers.map(number => <Text style={styles.sort.nrText}>{number}</Text>)}
+                {numbers.map(number => <Text key={i++} style={styles.sort.nrText}>{number}</Text>)}
                 </View>
         )
     }
@@ -56,7 +58,6 @@ export default class Sort extends Component {
                 sortedUp: 0
             })
         }
-
     }
     //sortowanie w górę
     sortUp(){

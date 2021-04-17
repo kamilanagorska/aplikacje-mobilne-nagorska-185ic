@@ -9,7 +9,7 @@
 [Responsywne layouty + nawigacja](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium2)
 
 ### Laboratorium 3
-Renderowanie listy danych + obsługa progresu [WKRÓTCE]
+[Renderowanie listy danych + obsługa progresu](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3)
 
 ### Laboratorium 4
 Obsługa danych wprowadzanych przez użytkownika + modale [WKRÓTCE]
