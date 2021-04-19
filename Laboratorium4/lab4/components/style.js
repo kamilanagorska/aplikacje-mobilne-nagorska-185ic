@@ -67,5 +67,16 @@ styles.textInp = StyleSheet.create({
         height: 50
     }
 });
-
+styles.select = StyleSheet.create({
+    pick: {
+        borderColor: '#928a9c',
+        borderWidth: 1,
+        borderRadius: 5,
+        fontSize: 17,
+        width: 150,
+        textAlign: 'center',
+        color: '#746d7d',
+        height: 50,
+    }
+});
 export default styles

@@ -1,34 +1,58 @@
-import * as React from 'react';
-import { TouchableOpacity, View, Text } from 'react-native';
+import React, {Component} from 'react';
+import { View, Text, ScrollView} from 'react-native';
+import {Picker} from '@react-native-picker/picker'
+import styles from './style'
 
-export default function Select({navigation}) {
+export default class Select extends Component {
+    //konstruktor
+    constructor(){
+        super();
+       this.state = {
+            value: "",
+            countries: []
+        };
+    }
+    async componentDidMount() {
+        const response = await fetch('https://restcountries.eu/rest/v2/all')
+        const countries = await response.json()
+        this.setState({
+            countries: countries
+        })
+    }
+    showOptions(options) {
+    return(
+        options.map(option => <Picker.Item key={option.name} label={option.name}></Picker.Item>)
+    )}
+
+    render(){
     return (
-      <View>
-        <View>
-        <TouchableOpacity  onPress={() => navigation.push('text')} >
-            <Text>TextInput</Text>
-        </TouchableOpacity >
-        </View>
-        <View >
-        <TouchableOpacity onPress={() => navigation.push('select')} >
-            <Text >Select</Text>
-        </TouchableOpacity >
-        </View>
-        <View>
-        <TouchableOpacity onPress={() => navigation.push('switch')} >
-            <Text>Switch</Text>
-        </TouchableOpacity >
-        </View>
-        <View>
-        <TouchableOpacity onPress={() => navigation.push('date')} >
-            <Text>Data i czas</Text>
-        </TouchableOpacity >
-        <View>
-        <TouchableOpacity onPress={() => navigation.push('toast')} >
-            <Text>ToastAndroid</Text>
-        </TouchableOpacity >
-        </View>
-        </View>
+      <View style={styles.home.container}>
+          <View style={styles.textInp.explain}>
+              <Text style={styles.textInp.text2}>Wykorzystanie elementu Picker</Text>
+          </View>
+          <ScrollView>
+              <View style={styles.textInp.example}>
+              <Text style={styles.textInp.text}>Prosty przykład z dwoma opcjami do wyboru</Text>
+              <Picker  style={styles.select.pick} selectedValue={this.value} onValueChange={(value) => {this.setState({value: value})}}>
+                  <Picker.Item label="Opcja jeden" value="1" />
+                  <Picker.Item label="Opcja druga" value="2" />
+            </Picker>
+              </View>
+              <View style={styles.textInp.example}>
+              <Text style={styles.textInp.text}>Zablokowany Picker (enabled = false)</Text>
+              <Picker  enabled= {false} selectedValue={this.value} style={styles.select.pick} onValueChange={(value) => {this.setState({value: value})}}>
+                  <Picker.Item label="Opcja jeden" value="1" />
+                  <Picker.Item label="Opcja dwa" value="2" />
+            </Picker>
+              </View>
+              <View style={styles.textInp.example}>
+              <Text style={styles.textInp.text}>Opcje do wybrania są pobrane asynchronicznie</Text>
+              <Picker  style={styles.select.pick}>
+                  {this.showOptions(this.state.countries)}
+            </Picker>
+              </View>
+          </ScrollView>
       </View>
     );
+}
 }

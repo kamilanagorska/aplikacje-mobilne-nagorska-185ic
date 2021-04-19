@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from './components/Home'
 import TextInp from './components/TextInp'
 import Select from './components/Select'
-import Switch from './components/Switch'
+import SwitchEx from './components/SwitchEx'
 import Date from './components/Date'
 import Toast from './components/Toast'
 
@@ -74,7 +74,7 @@ function App() {
           color: 'white'
         }
       }}
-      name="switch" component={Switch} />
+      name="switch" component={SwitchEx} />
 
       {/*piąty ekran*/}
       <Stack.Screen options={{
