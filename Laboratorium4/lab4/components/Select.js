@@ -34,13 +34,14 @@ export default class Select extends Component {
               <View style={styles.textInp.example}>
               <Text style={styles.textInp.text}>Prosty przykład z dwoma opcjami do wyboru</Text>
               <Picker  style={styles.select.pick} selectedValue={this.value} onValueChange={(value) => {this.setState({value: value})}}>
-                  <Picker.Item label="Opcja jeden" value="1" />
-                  <Picker.Item label="Opcja druga" value="2" />
+                  <Picker.Item label="Opcja jeden" value="Opcja jeden" />
+                  <Picker.Item label="Opcja druga" value="Opcja dwa" />
             </Picker>
+            <Text style={styles.textInp.textSm}>Wybrano: {this.state.value}</Text>
               </View>
               <View style={styles.textInp.example}>
               <Text style={styles.textInp.text}>Zablokowany Picker (enabled = false)</Text>
-              <Picker  enabled= {false} selectedValue={this.value} style={styles.select.pick} onValueChange={(value) => {this.setState({value: value})}}>
+              <Picker  enabled= {false} selectedValue={this.value} style={styles.select.pick}>
                   <Picker.Item label="Opcja jeden" value="1" />
                   <Picker.Item label="Opcja dwa" value="2" />
             </Picker>

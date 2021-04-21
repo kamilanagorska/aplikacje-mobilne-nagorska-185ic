@@ -5,7 +5,7 @@ import Home from './components/Home'
 import TextInp from './components/TextInp'
 import Select from './components/Select'
 import SwitchEx from './components/SwitchEx'
-import Date from './components/Date'
+import DateEx from './components/DateEx'
 import Toast from './components/Toast'
 
 
@@ -89,7 +89,7 @@ function App() {
           color: 'white'
         }
       }}
-      name="date" component={Date} />
+      name="date" component={DateEx} />
 
       {/*szósty ekran*/}
       <Stack.Screen options={{
