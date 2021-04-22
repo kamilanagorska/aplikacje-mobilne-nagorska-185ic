@@ -12,23 +12,23 @@ W pliku tym wykorzystałam react-navigation do utworzenia 4 ekranów:
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/1.png?raw=true)
 
-- [TextInput]()
+- [TextInput](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium4#textinput)
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/2.png?raw=true)
 
-- [Select]()
+- [Select](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium4#select)
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/3.png?raw=true)
 
-- [Switch]()
+- [Switch](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium4#switch)
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/4.png?raw=true)
 
-- [Data i czas]()
+- [Data i czas](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium4#data-i-czas)
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/5.png?raw=true)
 
-- [ToastAndroind]()
+- [ToastAndroind](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium4#toastandroid)
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/6.png?raw=true)
 
