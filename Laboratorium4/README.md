@@ -68,6 +68,29 @@ Dla ostatniego TextInputa ustawiłam returnKeyType na "send", czyli zamiast OK d
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/14.png?raw=true)
 
 #### Select
+Komponent klasowy. Wykorzystałam z nim 3 elementy Picker. W konstruktorze zdefiniowałam stan, a w nim dwie wartości: value = "Opcja jeden" i countries = []. Pierwsza z nich pozwala mi przechowywać wybraną opcję przez użytkownika. "Opcja jeden" jest domyślnie wybraną opcją. Countries służy do przechowywania pobranych danych do jednego z elementów Picker. 
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/15.png?raw=true)
+
+Użyłam componentDidMount(), jest to metoda, która wykonywana jest bezpośrednio po zamontowaniu komponentu. Umieściłam w niej fetch'a za pomocą którego pobieram dane dotyczące [państw](https://restcountries.eu/rest/v2/all). Zapisuje je pod zmienną countries.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/16.png?raw=true)
+
+Stworzyłam metodę showOptions(options), która zwraca tyle elementów Picker.Item ile elementów w tablicy countries.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/17.png?raw=true)
+
+Mój pierwszy Picker ma dwie opcje do wyboru, domyślnie wybraną jest Opcja jeden, dodatkowo wybrana opcja wyświetla się pod spodem. 
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/18.png?raw=true)
+
+Drugi Picker ma zablokowaną opcję wyboru (enabled={false}).
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/19.png?raw=true)
+
+Opcje ostatniego Pickera to pobrane asynchronicznie nazwy państw.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/20.png?raw=true)
 
 #### Switch
 

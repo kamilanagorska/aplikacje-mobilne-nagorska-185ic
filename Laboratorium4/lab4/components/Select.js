@@ -8,7 +8,7 @@ export default class Select extends Component {
     constructor(){
         super();
        this.state = {
-            value: "",
+            value: "Opcja jeden",
             countries: []
         };
     }
@@ -41,7 +41,7 @@ export default class Select extends Component {
               </View>
               <View style={styles.textInp.example}>
               <Text style={styles.textInp.text}>Zablokowany Picker (enabled = false)</Text>
-              <Picker  enabled= {false} selectedValue={this.value} style={styles.select.pick}>
+              <Picker  enabled= {false} style={styles.select.pick}>
                   <Picker.Item label="Opcja jeden" value="1" />
                   <Picker.Item label="Opcja dwa" value="2" />
             </Picker>
