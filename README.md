@@ -12,7 +12,7 @@
 [Renderowanie listy danych + obsługa progresu](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium3)
 
 ### Laboratorium 4
-Obsługa danych wprowadzanych przez użytkownika + modale [WKRÓTCE]
+[Obsługa danych wprowadzanych przez użytkownika + modale](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium4)
 
 ### Laboratorium 5
 Obsługa gestów użytkownika [WKRÓTCE]
