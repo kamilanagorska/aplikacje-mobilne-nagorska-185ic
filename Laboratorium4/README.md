@@ -68,7 +68,7 @@ Dla ostatniego TextInputa ustawiłam returnKeyType na "send", czyli zamiast OK d
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/14.png?raw=true)
 
 #### Select
-Komponent klasowy. Wykorzystałam z nim 3 elementy Picker. W konstruktorze zdefiniowałam stan, a w nim dwie wartości: value = "Opcja jeden" i countries = []. Pierwsza z nich pozwala mi przechowywać wybraną opcję przez użytkownika. "Opcja jeden" jest domyślnie wybraną opcją. Countries służy do przechowywania pobranych danych do jednego z elementów Picker. 
+Komponent klasowy. Wykorzystałam z nim 3 elementy Picker. W konstruktorze zdefiniowałam stan, a w nim dwie wartości: value = "Opcja jeden" i countries = []. Pierwsza z nich pozwala mi przechowywać wybraną opcję przez użytkownika. "Opcja jeden" jest domyślnie wybraną opcją. Countries służy do przechowywania pobranych danych dla jednego z elementów Picker. 
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/15.png?raw=true)
 
@@ -76,7 +76,7 @@ Użyłam componentDidMount(), jest to metoda, która wykonywana jest bezpośredn
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/16.png?raw=true)
 
-Stworzyłam metodę showOptions(options), która zwraca tyle elementów Picker.Item ile elementów w tablicy countries.
+Stworzyłam metodę showOptions(options), która zwraca tyle elementów Picker.Item ile elementów w countries.
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/17.png?raw=true)
 
@@ -93,6 +93,17 @@ Opcje ostatniego Pickera to pobrane asynchronicznie nazwy państw.
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/20.png?raw=true)
 
 #### Switch
+Komponent funkcyjnym. Użyłam hooka stanu, by przechowywać informację o przesunięciu Switcha. Utworzyłam też metodę toggleSwitch która zmienia wartość zmiennej switchedOn.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/21.png?raw=true)
+
+W return() umieściłam Switch, gdy przesuniemy go wyświetla się Modal (visible={switchedOn}). 
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/22.png?raw=true)
+
+W Modalu pokazuje nam się pseudolosowa liczba, za każdym razem inna. Umieściłam w nim też guzik (TouchableOpacity), po którego wciśnięciu Modal znika.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/23.png?raw=true)
 
 #### Data i czas
 
