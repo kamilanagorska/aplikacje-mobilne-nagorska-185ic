@@ -116,7 +116,7 @@ Stworzyłam metodę, która w zależności od aktualnego trybu DateTimePickera z
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/25.png?raw=true)
 
-Stworzyłam też metody showDate i showTime które zmieiają tryb DateTimePickera.
+Stworzyłam też metody showDate i showTime, które zmieniają tryb DateTimePickera.
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/26.png?raw=true)
 
@@ -157,6 +157,7 @@ Wybierając TextInput ukazuje nam się 6 TextInputów. Pierwszy umożliwia nam w
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/2.jpg?raw=true)
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/3.jpg?raw=true)
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/4.jpg?raw=true)
+
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/5.jpg?raw=true)
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/6.jpg?raw=true)
 
