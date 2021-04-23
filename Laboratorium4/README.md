@@ -124,7 +124,7 @@ showTerm pobiera ze zmiennej date dzień, miesiąc i rok, a ze zmiennej time god
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/27.png?raw=true)
 
-onChangeDate zapisuje wybraną datę przez użytkownika i zmienia wartość showD na false. onChangeTime robi to samo ale z czasem i zmienna showT.
+onChangeDate zapisuje wybraną datę przez użytkownika i zmienia wartość showD na false. onChangeTime robi to samo ale z czasem i zmienną showT.
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/28.png?raw=true)
 
@@ -142,9 +142,42 @@ Utworzyłam metodę makeNewPromise, w której pod zmienną timeNew podstawiam ps
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/31.png?raw=true)
 
-W return() umieściłam guzik, po którego wciśnięciu wywoływana jest makeNewPromise() i toggleSwitch(), dodatkowo Modal, który zostaje wyświetlony znika, jeśli obietnica zostanie rozwiązana.
+W return() umieściłam guzik, po którego wciśnięciu wywoływane są makeNewPromise() i toggleSwitch(), dodatkowo Modal, który zostaje wyświetlony znika, jeśli obietnica zostanie rozwiązana.
 
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/32.png?raw=true)
 
 
 ### Działanie na telefonie
+Po włączeniu aplikacji pojawia się ekran z guzikami.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/1.jpg?raw=true)
+
+Wybierając TextInput ukazuje nam się 6 TextInputów. Pierwszy umożliwia nam wpisanie tylko 40 znaków. Gdy wpisujemy coś do drugiego klawiatura ma automatycznie włączone pisanie dużych liter dla wszysktich znaków. Gdy wpisujemy coś do trzeciego włącza nam się klawiatura umożliwiająca proste wpisywanie adresów e-mail. Czwarty TextInput pozwala nam na tworzenie linii. W piątym nie da się wpisać żadnej wartości, a w ostatnim na klawiaturze zamiast OK mamy napis Wyślij.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/2.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/3.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/4.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/5.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/6.jpg?raw=true)
+
+Wybierając ekran Select ukazują nam się 3 elementy Picker. Gdy zmienimi wartość w pierwszym z nich wyświetla się ona pod spodem. W drugim nie da się zmienić wybranej opcji, a w ostatnim opcje do wybrania zostały pobrane asynchronicznie. 
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/7.jpg?raw=true)
+
+Na kolejnym ekranie znajduje się Switch. Gdy go przesuniemy pojawia się Modal z pseudolosową liczbą, który możemy zamknąć wciskając guzik Zamknij.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/8.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/9.jpg?raw=true)
+
+Wybierając ekran Data i czas, pojawiają się 3 guziki. Gdy wciśniemy pierwszy pojawia się opcja wybrania daty. Po wciśnięciu drugiego wybieramy godzinę. Ostatni guzik wyświetla nam wybrany termin.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/10.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/11.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/12.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/13.jpg?raw=true)
+
+Na ostatnim ekranie znajduje się guzik, gdy go wciśniemy wyświetla nam się Modal z ilością milisekund, gdy czas ten upłynie Modal znika, a wyświetla się pasywne powiadomienie.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/14.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/15.jpg?raw=true)
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/16.jpg?raw=true)
