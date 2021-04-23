@@ -106,7 +106,45 @@ W Modalu pokazuje nam się pseudolosowa liczba, za każdym razem inna. Umieści�
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/23.png?raw=true)
 
 #### Data i czas
+Do pobierania daty i czasu użyłam DateTimePicker z @react-native-community/datetimepicker. Niestety tryb "datetime" jest niedostępny na Androidzie, więc musiałam użyć dwóch osobnych DateTimePicker. Jeden do pobierania daty, drugi do pobierania czasu. 
+
+Najpierw za pomocą hooka stanu zdefiniowałam to, co będzie mi potrzebne do zapisywania daty, czasu, zmiany wyświetlanego Pickera i zmiany jego trybu.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/24.png?raw=true)
+
+Stworzyłam metodę, która w zależności od aktualnego trybu DateTimePickera zmienia wartość showD lub showT na true.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/25.png?raw=true)
+
+Stworzyłam też metody showDate i showTime które zmieiają tryb DateTimePickera.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/26.png?raw=true)
+
+showTerm pobiera ze zmiennej date dzień, miesiąc i rok, a ze zmiennej time godzinę i minuty, a następnie wyświetla Alert z pobranymi elementami.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/27.png?raw=true)
+
+onChangeDate zapisuje wybraną datę przez użytkownika i zmienia wartość showD na false. onChangeTime robi to samo ale z czasem i zmienna showT.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/28.png?raw=true)
+
+
+W return() umieściłam 3 guziki, pierwszy wyświetla DateTimePicker z wyborem daty, drugi z wyborem godziny, a ostatni powoduje wyświetlenie Alert z wybranych terminem. Znajdują się tu też dwa DateTimePickery wyświetlane w zależności od zmiennych showD i showT.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/29.png?raw=true)
 
 #### ToastAndroid
+Ekran z aktywnym modalem i pasywnym powiadomieniem z wykorzystaniem ToastAndroid. Za pomoca hooka stanu zdefiniowałam to, co będzie mi potrzebne do przechowywania i zmieniania czasu trwania obietnicy i włączania/wyłączania Modala. 
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/30.png?raw=true)
+
+Utworzyłam metodę makeNewPromise, w której pod zmienną timeNew podstawiam pseudolosową liczbę. Tworzę obietnicę, która po czasie timeNew (jest to czas w milisekundach) zostaje rozwiązana i wywoływana jest metoda showToast(), czyli wyświetlane jest nasze pasywne powiadomienie.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/31.png?raw=true)
+
+W return() umieściłam guzik, po którego wciśnięciu wywoływana jest makeNewPromise() i toggleSwitch(), dodatkowo Modal, który zostaje wyświetlony znika, jeśli obietnica zostanie rozwiązana.
+
+![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/32.png?raw=true)
+
 
 ### Działanie na telefonie
