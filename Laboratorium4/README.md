@@ -157,7 +157,6 @@ Wybierając TextInput ukazuje nam się 6 TextInputów. Pierwszy umożliwia nam w
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/2.jpg?raw=true)
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/3.jpg?raw=true)
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/4.jpg?raw=true)
-
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/5.jpg?raw=true)
 ![2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/6.jpg?raw=true)
 
