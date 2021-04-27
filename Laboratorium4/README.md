@@ -7,7 +7,7 @@ Aplikacja obsługująca dane wprowadzane przez użytkownika + wykorzystanie moda
 
 ### Opisanie kodu
 #### App.js
-W pliku tym wykorzystałam react-navigation do utworzenia 4 ekranów:
+W pliku tym wykorzystałam react-navigation do utworzenia 6 ekranów:
 - [strona główna](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium4#strona-g%C5%82%C3%B3wna)
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium4/screenshots/1.png?raw=true)
