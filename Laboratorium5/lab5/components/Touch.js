@@ -20,18 +20,10 @@ export default class Touch extends React.Component {
   }
 
   clicked = () => {
-    if(this.state.showT == false){
-      this.setState({
-        showT: true
-      })
-    } else {
-      this.setState({
-        showT: false
-      })
-    }
+    this.setState({showT: !this.state.showT})
   }
 
-  showBrows() {
+  showBrows = () => {
     return (
         <Modal
             animationType="slide"
@@ -41,7 +33,7 @@ export default class Touch extends React.Component {
                 this.setState({showBrowser: !showBrowser});
             }}
         >
-            <Text onPress={() => this.setState({showBrowser: false})} style={{fontSize: 22}}>Zamknij</Text>
+            <Text onPress={() => this.setState({showBrowser: false, search: ''})} style={{fontSize: 22}}>Zamknij</Text>
             <WebView
                 source={{
                     uri: 'https://www.google.com/search?q=' + this.state.search,
@@ -50,7 +42,7 @@ export default class Touch extends React.Component {
                 startInLoadingState
                 scalesPageToFit
                 javaScriptEnabled
-                style={{ flex: 1}}
+                style={{flex:1}}
             />
         </Modal>
     );
