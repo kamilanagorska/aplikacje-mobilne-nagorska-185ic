@@ -48,6 +48,11 @@ styles.scroll = StyleSheet.create({
         marginLeft: 5,
         marginRight: 5
     },
+    text1: {
+        fontSize: 17,
+        color: 'white',
+        marginTop: 3
+    },
     example: {
         flex: 1,
         backgroundColor: '#90c28c',
@@ -72,24 +77,29 @@ styles.scroll = StyleSheet.create({
     scbox: {
         flex: 1,
         backgroundColor: '#82ad7f',
-        height: 100,
+        height: 200,
         marginLeft: 20,
         marginRight: 20,
         marginTop: 20,
         marginBottom: 20,
         borderRadius: 10
     },
-    scbox2: {
-        flex: 1,
-        backgroundColor: '#82ad7f',
-        height: 100,
-        marginLeft: 20,
-        marginRight: 20,
-        marginTop: 20,
-        marginBottom: 20,
+    image: {
+        height:160, 
         borderRadius: 10,
-        width: 55,
-        height: 460
+        marginBottom: 10
+    },
+    image2: {
+        height: '100%', 
+        width: 93
+    },
+    ex: {
+        backgroundColor: '#82ad7f',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 10,
+        height: 35,
+        marginBottom: 10
     }
 })
 
