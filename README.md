@@ -15,7 +15,7 @@
 [Obsługa danych wprowadzanych przez użytkownika + modale](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium4)
 
 ### Laboratorium 5
-Obsługa gestów użytkownika [WKRÓTCE]
+[Obsługa gestów użytkownika](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium5)
 
 ### Laboratorium 6
 Obsługa obrazów + tryb offline [WKRÓTCE]
