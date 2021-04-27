@@ -100,6 +100,15 @@ styles.scroll = StyleSheet.create({
         borderRadius: 10,
         height: 35,
         marginBottom: 10
+    },
+    input: {
+        borderColor: '#90c28c',
+        borderWidth: 1,
+        borderRadius: 5,
+        fontSize: 17,
+        width: 300,
+        textAlign: 'center',
+        color: '#746d7d'
     }
 })
 
