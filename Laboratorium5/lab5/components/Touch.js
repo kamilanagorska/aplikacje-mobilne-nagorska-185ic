@@ -31,7 +31,7 @@ export default class Touch extends React.Component {
     }
   }
 
-  renderBrowser() {
+  showBrows() {
     return (
         <Modal
             animationType="slide"
@@ -59,7 +59,7 @@ export default class Touch extends React.Component {
   render(){
     return (
       <View style={styles.scroll.container}>
-         { this.state.showBrowser && this.renderBrowser() }
+         { this.state.showBrowser && this.showBrows() }
         <View style={styles.scroll.explain}>
             <Text style={[styles.scroll.text, {textAlign: 'center'}]}>Przykłady użycia komponentów TouchableOpacity, TouchableHighlight i WebView</Text>
         </View>
@@ -79,7 +79,7 @@ export default class Touch extends React.Component {
             )}
           </View>
           <View style={{flex:1, alignItems: 'center'}}>
-            <Text style={[styles.scroll.text, {textAlign: 'center'}]}>Co chcesz wyszukać?</Text>
+            <Text style={[styles.scroll.text, {textAlign: 'center', marginTop: 20}]}>Co chcesz wyszukać?</Text>
             <TextInput style={styles.scroll.input} onSubmitEditing={event => this.setState({search: event.nativeEvent.text, showBrowser: true})}></TextInput>
       </View>
       </ScrollView>

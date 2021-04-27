@@ -109,6 +109,11 @@ styles.scroll = StyleSheet.create({
         width: 300,
         textAlign: 'center',
         color: '#746d7d'
+    },
+    swipe: {
+        backgroundColor: '#82ad7f',
+        height: 80,
+        alignItems: 'stretch'
     }
 })
 
