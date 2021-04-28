@@ -142,15 +142,25 @@ W return() umieściłam tekst, a pod nim element Pressable. Gdy go wciśniemy (o
 
 ### Działanie na telefonie
 Gdy włączymy aplikację ukazuje się ekran z guzikami. Każdy z nich prowadzi nas do innego ekranu.
-- ScrollView 1
-- ScrollView 2
-- Touchable
-- Swipeable
-- Pressable
+- [ScrollView 1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium5#scrollview-1-1)
+- [ScrollView 2](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium5#scrollview-2-1)
+- [Touchable](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium5#touchable-1)
+- [Swipeable](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium5#swipeable-1)
+- [Pressable](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium5#pressable-1)
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/1.jpg?raw=true)
 
 #### ScrollView 1
+Znajdują się tutaj 3 elementy ScrollView:
+- duży, w którym wszystko się znajduje
+- mniejszy z nazwami zwierząt
+- mniejszy ze zdjęciami lasu.
+Wszystkie przesuwają się w dół i mają widoczny Scrollbar.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/2.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/3.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/4.jpg?raw=true)
+
 #### ScrollView 2
 #### Touchable
 #### Swipeable
