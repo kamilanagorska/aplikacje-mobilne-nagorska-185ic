@@ -141,3 +141,17 @@ W return() umieściłam tekst, a pod nim element Pressable. Gdy go wciśniemy (o
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/30.png?raw=true)
 
 ### Działanie na telefonie
+Gdy włączymy aplikację ukazuje się ekran z guzikami. Każdy z nich prowadzi nas do innego ekranu.
+- ScrollView 1
+- ScrollView 2
+- Touchable
+- Swipeable
+- Pressable
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/1.jpg?raw=true)
+
+#### ScrollView 1
+#### ScrollView 2
+#### Touchable
+#### Swipeable
+#### Pressable
