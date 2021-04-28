@@ -231,3 +231,12 @@ Ostatni Swipeable pozwala nam na przesuwanie jedynie w prawo. Po przesunięciu w
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/23.jpg?raw=true)
 
 #### Pressable
+Na ostatnim ekranie znajduje się element Pressable. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/24.jpg?raw=true)
+
+Gdy wciśniemy go wyświetla się napis "Wciskasz guzik". Gdy puścimy ukazuje się komunikat "Puszczono guzik". Gdy przytrzymamy guzik trochę dłużej (od 500ms w górę) wyświetla się napis "Wciskasz guzik przez ponad 500ms".
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/25.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/26.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/27.jpg?raw=true)
