@@ -173,5 +173,22 @@ Wszystkie mają widoczny Scrollbar. Środkowy ScrollView przesuwa się w poziomi
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/7.jpg?raw=true)
 
 #### Touchable
+Włączając ten ekran ukazują się:
+- TouchableOpacity
+- TouchableHighlight
+- TextInput.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/8.jpg?raw=true)
+
+Po wciśnięciu pierwszego elementu (TouchableOpacity) pod spodem wyświetla nam się liczba ile razy TouchableOpacity został wciśnięty.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/8a.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/10a.jpg?raw=true)
+
+Po wciśnięciu drugiego "guzika" (TouchableHighlight) wyświetla nam się napis "Miłego dnia", gdy wciśniemy go ponownie, guzik znika.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/10.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/9.jpg?raw=true)
+
 #### Swipeable
 #### Pressable
