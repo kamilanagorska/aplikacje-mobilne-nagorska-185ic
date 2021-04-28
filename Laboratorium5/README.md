@@ -155,13 +155,23 @@ Znajdują się tutaj 3 elementy ScrollView:
 - duży, w którym wszystko się znajduje
 - mniejszy z nazwami zwierząt
 - mniejszy ze zdjęciami lasu.
-Wszystkie przesuwają się w dół i mają widoczny Scrollbar.
+Wszystkie przesuwają się w pionie i mają widoczny Scrollbar.
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/2.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/3.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/4.jpg?raw=true)
 
 #### ScrollView 2
+Tutaj też znajdują się 3 elementy ScrollView:
+- duży, w którym wszystko się znajduje
+- mniejszy ze zdjęciami kwiatów
+- mniejszy z nazwami kwiatów.
+Wszystkie mają widoczny Scrollbar. Środkowy ScrollView przesuwa się w poziomie, a pozostałe w pionie.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/5.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/6.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/7.jpg?raw=true)
+
 #### Touchable
 #### Swipeable
 #### Pressable
