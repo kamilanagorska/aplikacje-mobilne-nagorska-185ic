@@ -185,10 +185,17 @@ Po wciśnięciu pierwszego elementu (TouchableOpacity) pod spodem wyświetla nam
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/8a.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/10a.jpg?raw=true)
 
-Po wciśnięciu drugiego "guzika" (TouchableHighlight) wyświetla nam się napis "Miłego dnia", gdy wciśniemy go ponownie, guzik znika.
+Po wciśnięciu drugiego "guzika" (TouchableHighlight) wyświetla nam się napis "Miłego dnia", gdy wciśniemy guzik ponownie, napis znika.
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/10.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/9.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/10.jpg?raw=true)
+
+Wpisanie tekstu w TextInput powoduje wyszukanie frazy w przeglądarce Google. Wpisujemy wybrany tekst, wciskamy OK na klawiaturze i otwiera się Modal z przeglądarką. W górnym lewym rogu znajduje się napis Zamknij, którego wciśnięcie powoduje zamknięcie Modala.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/11.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/12.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/13.jpg?raw=true)
 
 #### Swipeable
 #### Pressable
