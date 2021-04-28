@@ -110,7 +110,7 @@ Umieściłam też TextInput, w którym można wpisać frazę, jaką chcemy wyszu
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/23.png?raw=true)
 
 #### Swipeable
-Komponent funkcyjny. Wykorzystałam w nim komponent Swipeable z 'react-native-swipeable'. Zdefiniowałam dwie zmienne notHere i change, które będą wyświetlane, gdy przesuniemy Swipeable w lewo. Następnie użyłam hooka stanu by móc zmieniać wartości zmiennych symbol i symbol2. Poniżej zdefiniowałam funkcje swipe i swiped2, które zmieniają wartości wymienionych przed chwilą zmiennych. 
+Komponent funkcyjny. Wykorzystałam w nim komponent Swipeable z 'react-native-swipeable'. Zdefiniowałam dwie zmienne notHere i change, które będą wyświetlane, gdy przesuniemy Swipeable w lewo. Następnie użyłam hooka stanu by móc zmieniać wartości zmiennych symbol i symbol2. Poniżej zdefiniowałam funkcje swipe i swiped2, które powodują zmianę wartości wymienionych przed chwilą zmiennych. 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/24.png?raw=true)
 
@@ -132,7 +132,7 @@ Trzeci Swipeable nie pozwala nam na przesunięcie go w lewo. Możemy przesuwać 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/28.png?raw=true)
 
 #### Pressable
-Komponent funkcyjny. Wykorzystałam w nim komponent Pressable. Użyłam hook stanu by móc zmieniać wartość wyświetlanego powiadomienia. Poniżej utworzyłam metodę pressed, do której na wejście przyjmowane jest powiadomienie i za pomocą setNotification zmieniana jest wartość zmiennej notification. 
+Komponent funkcyjny. Wykorzystałam w nim komponent Pressable. Użyłam hook stanu by móc zmieniać wartość wyświetlanego powiadomienia. Poniżej utworzyłam metodę pressed, do której przekazywane jest powiadomienie i za pomocą setNotification zmieniana jest wartość zmiennej notification. 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/29.png?raw=true)
 
@@ -155,6 +155,7 @@ Znajdują się tutaj 3 elementy ScrollView:
 - duży, w którym wszystko się znajduje
 - mniejszy z nazwami zwierząt
 - mniejszy ze zdjęciami lasu.
+
 Wszystkie przesuwają się w pionie i mają widoczny Scrollbar.
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/2.jpg?raw=true)
@@ -166,6 +167,7 @@ Tutaj też znajdują się 3 elementy ScrollView:
 - duży, w którym wszystko się znajduje
 - mniejszy ze zdjęciami kwiatów
 - mniejszy z nazwami kwiatów.
+
 Wszystkie mają widoczny Scrollbar. Środkowy ScrollView przesuwa się w poziomie, a pozostałe w pionie.
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/5.jpg?raw=true)
@@ -235,7 +237,7 @@ Na ostatnim ekranie znajduje się element Pressable.
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/24.jpg?raw=true)
 
-Gdy wciśniemy go wyświetla się napis "Wciskasz guzik". Gdy puścimy ukazuje się komunikat "Puszczono guzik". Gdy przytrzymamy guzik trochę dłużej (od 500ms w górę) wyświetla się napis "Wciskasz guzik przez ponad 500ms".
+Gdy wciśniemy go, wyświetla się napis "Wciskasz guzik". Gdy puścimy ukazuje się komunikat "Puszczono guzik". Gdy przytrzymamy guzik trochę dłużej (od 500ms w górę) wyświetla się napis "Wciskasz guzik przez ponad 500ms".
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/25.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/26.jpg?raw=true)
