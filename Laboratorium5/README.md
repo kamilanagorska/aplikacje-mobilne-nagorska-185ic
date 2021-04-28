@@ -198,4 +198,36 @@ Wpisanie tekstu w TextInput powoduje wyszukanie frazy w przeglądarce Google. Wp
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/13.jpg?raw=true)
 
 #### Swipeable
+Na tym ekranie znajdują się trzy komponenty Swipeable:
+- Słoneczniki
+- Róże
+- Stokrotki.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/14.jpg?raw=true)
+
+Pierwszy z nich możemy przesuwać w prawo i w lewo. Przesunięcie w prawo powoduje wyświetlenie zdjęć słoneczników. Gdy powrócimy do podstawowej pozycji, zauważyć można, że symbol przy napisie Słoneczniki zmienił się na ptaszka. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/14a.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/15.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/16.jpg?raw=true)
+
+Gdy przesuniemy w lewo wyświetla się napis "Odznaczono", a gdy wrócimy do podstawowej pozycji symbol zmienia się na krzyżyk. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/16.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/17.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/18.jpg?raw=true)
+
+Drugi komponent Swipeable przesuwa się w prawo i w lewo. Gdy przesuniemy w prawo, wyświetlają się zdjęcia róż, gdy przesuniemy w lewo wyświetla się napis "Nie tutaj".
+
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/18a.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/19.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/20.jpg?raw=true)
+
+Ostatni Swipeable pozwala nam na przesuwanie jedynie w prawo. Po przesunięciu wyświetlają się zdjęcia stokrotek. Gdy wrócimy do podstawowej pozycji widać, że zmienił się symbol przy nazwie kwiatów z krzyżyka na ptaszka.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/21.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/22.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/23.jpg?raw=true)
+
 #### Pressable
