@@ -72,7 +72,8 @@ export default class Touch extends React.Component {
           </View>
           <View style={{flex:1, alignItems: 'center'}}>
             <Text style={[styles.scroll.text, {textAlign: 'center', marginTop: 20}]}>Co chcesz wyszukać?</Text>
-            <TextInput style={styles.scroll.input} onSubmitEditing={event => this.setState({search: event.nativeEvent.text, showBrowser: true})}></TextInput>
+            <TextInput style={styles.scroll.input} 
+            onSubmitEditing={event => this.setState({search: event.nativeEvent.text, showBrowser: true})}></TextInput>
       </View>
       </ScrollView>
 

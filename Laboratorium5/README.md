@@ -110,5 +110,34 @@ Umieściłam też TextInput, w którym można wpisać frazę, jaką chcemy wyszu
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/23.png?raw=true)
 
 #### Swipeable
+Komponent funkcyjny. Wykorzystałam w nim komponent Swipeable z 'react-native-swipeable'. Zdefiniowałam dwie zmienne notHere i change, które będą wyświetlane, gdy przesuniemy Swipeable w lewo. Następnie użyłam hooka stanu by móc zmieniać wartości zmiennych symbol i symbol2. Poniżej zdefiniowałam funkcje swipe i swiped2, które zmieniają wartości wymienionych przed chwilą zmiennych. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/24.png?raw=true)
+
+Następnie utworzyłam rightButtons, rightButtonsv2 i rightButtons3 przechowuje w nich to, co chcę wyświetlać, gdy przesuniemy Swipeable w prawo. Są to obrazki kwiatów.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/25.png?raw=true)
+
+W return() umieściłam 3 komponenty Swipeable. Pierwszy z nich umożliwia nam przesuwanie w lewo i w prawo. Gdy przesuniemy w lewo wyświetlany jest napis "Odznaczono" (leftContent={change}) i zmieniany jest symbol przy nazwie kwiata na krzyżyk (onLeftActionRelease={() => swiped2('×')}). Gdy przesuniemy w prawo wyświetlane są zdjęcia słoneczników (rightButtons={rightButtons}) i symbol zmieniany jest na ptaszka (onRightActionRelease={() => swiped2('✓')}). Dodatkowo, by symbol ustawić na krzyżyk wystarczy lekko przesunąć w lewo, nie trzeba przesuwać do końca, aż wyświeli się napis (leftActionActivationDistance={20}). 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/26.png?raw=true)
+
+Drugi element Swipeable też umożliwia nam przesuwanie w prawo i lewo. Podobnie jak poprzednio, gdy przesuniemy w prawo wyświetlane są zdjęcia kwiatów. Gdy przesyniemy w lewo ukazuje nam się napis "Nie tutaj!".
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/27.png?raw=true)
+
+
+Trzeci Swipeable nie pozwala nam na przesunięcie go w lewo. Możemy przesuwać tylko w prawo. Po przesunięciu wyświetlane są zdjęcia kwiatów, a symbol przy nazwie kwiata zmieniany jest na krzyżyk (onRightActionRelease={swiped}). Działa to tylko za pierwszym przesunięciem. Z każdym kolejnym nic się nie zmienia.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/28.png?raw=true)
+
 #### Pressable
+Komponent funkcyjny. Wykorzystałam w nim komponent Pressable. Użyłam hook stanu by móc zmieniać wartość wyświetlanego powiadomienia. Poniżej utworzyłam metodę pressed, do której na wejście przyjmowane jest powiadomienie i za pomocą setNotification zmieniana jest wartość zmiennej notification. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/29.png?raw=true)
+
+W return() umieściłam tekst, a pod nim element Pressable. Gdy go wciśniemy (onPressIn) wyświetlane jest powiadomienie "Wciskasz guzik", gdy guzik puścimy (onPressOut) wyświetlane jest "Puszczono guzik". Jeśli przytrzymamy guzik trochę dłużej (500ms i więcej) (onLongPress) to wyświetlane jest "Wciskasz guzik przez ponad 500ms". 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium5/screenshots/30.png?raw=true)
+
 ### Działanie na telefonie
