@@ -25,15 +25,15 @@ styles.home = StyleSheet.create({
     }
 });
 
-styles.scroll = StyleSheet.create({
+styles.img = StyleSheet.create({
     container: {
         flex:1 ,
-        backgroundColor: '#a0d99a',
+        backgroundColor: '#f2cec2',
         flexGrow: 1
     },
 
     explain: {
-        backgroundColor: '#90c28c',
+        backgroundColor: '#d4b2a7',
         justifyContent: 'center',
         alignItems: 'center',
         marginVertical: 20,
@@ -85,9 +85,12 @@ styles.scroll = StyleSheet.create({
         borderRadius: 10
     },
     image: {
-        height:160, 
+        width: 300,
+        height: 200,
+        alignSelf: 'center',
         borderRadius: 10,
-        marginBottom: 10
+        borderColor: 'white',
+        borderWidth: 3
     },
     image2: {
         height: '100%', 

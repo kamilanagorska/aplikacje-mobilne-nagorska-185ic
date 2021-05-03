@@ -1,38 +1,22 @@
 import * as React from 'react';
-import { TouchableOpacity, View, Text} from 'react-native';
+import {View, Text, Image} from 'react-native';
 import styles from './style'
 
-export default function Images({navigation}) {
+export default function Images() {
     return (
-      <View style={styles.home.container}>
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('images')}  >
-            <Text style={styles.home.text}>Images</Text>
-        </TouchableOpacity >
+        <View style={styles.img.container}>
+        <View style={styles.img.explain}>
+            <Text style={styles.img.text}>Obrazek ładowany za pomocą właściwości 'uri'</Text>
         </View>
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('sliderImg')} >
-            <Text style={styles.home.text}>Slider + Image</Text>
-        </TouchableOpacity >
+        <View>
+                <Image style={styles.img.image} source={{uri: 'https://cdn.pixabay.com/photo/2020/01/20/22/55/bush-4781627_960_720.jpg'}}/>
         </View>
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('lazy')}  >
-            <Text style={styles.home.text}>Lazy Loading</Text>
-        </TouchableOpacity >
+        <View style={styles.img.explain}>
+            <Text style={styles.img.text}>Obrazek ładowany z użyciem metody require()</Text>
         </View>
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('netinf')}  >
-            <Text style={styles.home.text}>NetInfo</Text>
-        </TouchableOpacity >
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('async')}  >
-            <Text style={styles.home.text}>AsyncStorage</Text>
-        </TouchableOpacity >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('datasyn')}  >
-            <Text style={styles.home.text}>Synchronizacja danych</Text>
-        </TouchableOpacity >
-        </View>
-        </View>
-      </View>
+        <View>
+                <Image style={styles.img.image} source={require('./image.jpg')}/>
+        </View>        
+    </View>
     );
 }
