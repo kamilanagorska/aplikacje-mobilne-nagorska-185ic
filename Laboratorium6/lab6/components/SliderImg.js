@@ -11,7 +11,7 @@ export default function SliderImg() {
     return (
       <View style={styles.img.container}>
           <View style={styles.img.explain}>
-            <Text style={styles.img.text}>Wykorzystanie komponentu Slider, który po przesunięciu powoduje zmianę rozmiaru obrazka</Text>
+            <Text style={[styles.img.text, {textAlign: 'center'}]}>Wykorzystanie komponentu Slider, który po przesunięciu powoduje zmianę rozmiaru obrazka</Text>
         </View>
         <View style={styles.img.slider}>
             <Slider style={{width: 300, height: 40}}

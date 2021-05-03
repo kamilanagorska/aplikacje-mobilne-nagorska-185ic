@@ -9,7 +9,7 @@ export default function Lazy() {
     return (
         <View style={styles.img.container}>
           <View style={styles.img.explain}>
-            <Text style={styles.img.text}>Lazy loading komponentu Image z wykorzystaniem opcji PlaceholderContent</Text>
+            <Text style={[styles.img.text, {textAlign: 'center'}]}>Lazy loading komponentu Image z wykorzystaniem opcji PlaceholderContent</Text>
         </View>
         <View style={{alignItems: 'center'}}>
             <Image 
@@ -20,7 +20,7 @@ export default function Lazy() {
             source={{uri: 'https://cdn.pixabay.com/photo/2014/06/04/18/33/strawflower-362280_960_720.jpg'}}/>
         </View>
         <View style={styles.img.explain}>
-            <Text style={styles.img.text}>Wyświetlenie wybranego zestawu ikon</Text>
+            <Text style={[styles.img.text, {textAlign: 'center'}]}>Wyświetlenie wybranego zestawu ikon</Text>
         </View>
         <View style={{alignItems: 'center'}}>
         <View style={{flexDirection: 'row'}}>

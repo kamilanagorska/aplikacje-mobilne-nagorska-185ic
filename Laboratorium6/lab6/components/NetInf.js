@@ -31,7 +31,7 @@ export default class NetInf extends Component {
     return (
       <View style={styles.img.container}>
           <View style={styles.img.explain}>
-            <Text style={styles.img.text}>Detekcja łączności z siecią z wykorzystaniem NetInfo</Text>
+            <Text style={[styles.img.text, {textAlign: 'center'}]}>Detekcja łączności z siecią z wykorzystaniem NetInfo</Text>
         </View>
         <View style={styles.img.example}> 
         <Text style={styles.img.text}>Połączenie z internetem: {this.state.isConnected?`Tak`:`Nie`}</Text>

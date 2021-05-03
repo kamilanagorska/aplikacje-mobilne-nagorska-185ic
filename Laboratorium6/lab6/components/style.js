@@ -73,6 +73,16 @@ styles.img = StyleSheet.create({
         borderRadius: 10,
         borderColor: 'white',
         borderWidth: 3
+    },
+    input: {
+        borderColor: '#928a9c',
+        borderWidth: 1,
+        borderRadius: 5,
+        fontSize: 17,
+        width: 280,
+        textAlign: 'center',
+        color: '#746d7d',
+        alignSelf: 'center'
     }
 })
 
