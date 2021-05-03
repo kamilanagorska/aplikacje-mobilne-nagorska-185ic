@@ -1,38 +1,24 @@
 import * as React from 'react';
-import { TouchableOpacity, View, Text} from 'react-native';
+import {View, Text} from 'react-native';
+import { Image } from 'react-native-elements';
+import { ActivityIndicator } from 'react-native'
 import styles from './style'
 
-export default function Lazy({navigation}) {
+export default function Lazy() {
     return (
-      <View style={styles.home.container}>
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('images')}  >
-            <Text style={styles.home.text}>Images</Text>
-        </TouchableOpacity >
+        <View style={styles.img.container}>
+          <View style={styles.img.explain}>
+            <Text style={styles.img.text}>Lazy loading komponentu Image z wykorzystaniem opcji PlaceholderContent</Text>
         </View>
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('sliderImg')} >
-            <Text style={styles.home.text}>Slider + Image</Text>
-        </TouchableOpacity >
+        <View style={{alignItems: 'center'}}>
+            <Image 
+            style={styles.img.image}
+            PlaceholderContent={<ActivityIndicator color='white' size='large' />}
+            transition={true}
+            transitionDuration ={1200}
+            source={{uri: 'https://cdn.pixabay.com/photo/2014/06/04/18/33/strawflower-362280_960_720.jpg'}}/>
         </View>
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('lazy')}  >
-            <Text style={styles.home.text}>Lazy Loading</Text>
-        </TouchableOpacity >
-        </View>
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('netinf')}  >
-            <Text style={styles.home.text}>NetInfo</Text>
-        </TouchableOpacity >
-        <View >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('async')}  >
-            <Text style={styles.home.text}>AsyncStorage</Text>
-        </TouchableOpacity >
-        <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('datasyn')}  >
-            <Text style={styles.home.text}>Synchronizacja danych</Text>
-        </TouchableOpacity >
-        </View>
-        </View>
+
       </View>
     );
 }

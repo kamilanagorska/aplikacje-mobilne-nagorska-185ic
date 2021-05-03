@@ -53,6 +53,9 @@ styles.img = StyleSheet.create({
         color: 'white',
         marginTop: 3
     },
+    slider: {
+        alignSelf: 'center'
+    },
     example: {
         flex: 1,
         backgroundColor: '#90c28c',
