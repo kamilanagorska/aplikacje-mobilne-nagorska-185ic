@@ -18,7 +18,7 @@
 [Obsługa gestów użytkownika](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium5)
 
 ### Laboratorium 6
-Obsługa obrazów + tryb offline [WKRÓTCE]
+[Obsługa obrazów + tryb offline](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium6)
 
 ### Laboratorium 7
 Geolokacja + mapy [WKRÓTCE]
