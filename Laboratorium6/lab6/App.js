@@ -5,7 +5,7 @@ import Home from './components/Home'
 import Images from './components/Images'
 import SliderImg from './components/SliderImg'
 import Lazy from './components/Lazy'
-import NetInfo from './components/NetInfo'
+import NetInf from './components/NetInf'
 import AsyncS from './components/AsyncS'
 import DataSyn from './components/DataSyn'
 
@@ -64,7 +64,7 @@ function App() {
 
       {/*czwarty ekran*/}
          <Stack.Screen options={{
-        title: '✧ Lazy Loading ✧',
+        title: '✧ Lazy Loading + Icons ✧',
         headerStyle: {
           backgroundColor: '#f2cec2',
         },
@@ -90,7 +90,7 @@ function App() {
           color: 'white'
         }
       }}
-      name="netinf" component={NetInfo} />
+      name="netinf" component={NetInf} />
 
       {/*szósty ekran*/}
       <Stack.Screen options={{

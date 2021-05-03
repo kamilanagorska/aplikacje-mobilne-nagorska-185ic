@@ -17,7 +17,7 @@ export default function Home({navigation}) {
         </View>
         <View >
         <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('lazy')}  >
-            <Text style={styles.home.text}>Lazy Loading</Text>
+            <Text style={styles.home.text}>Lazy Loading + Icons</Text>
         </TouchableOpacity >
         </View>
         <View >
