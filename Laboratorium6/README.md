@@ -72,6 +72,13 @@ W **componentDidMount** umieściłam **fetcha**, który umożliwia pobranie info
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/11.png?raw=true)
 
+W sekcji **render()** umieściłam napis **Połączenie z internetem** a poniżej ikonkę, która zmienia się w zależności, czy mamy połączenie z siecią lub nie. Wykorzystuje tutaj zmienną ze stanu **isConnected**
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/12.png?raw=true)
+
+Następnie wyświetlam wszystkie pobrane wcześniej informacje dotyczące połączenia.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/13.png?raw=true)
 
 ## Zapis danych za pomocą AsyncStorage
 ## Synchronizacja danych w zależności od połączenia z internetem

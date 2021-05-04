@@ -28,6 +28,7 @@ export default class NetInf extends Component {
       })
     })
   }
+  
   render() {
     return (
       <View style={styles.img.container}>
