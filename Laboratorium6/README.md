@@ -10,10 +10,14 @@ Aplikacja wyświetlająca obrazy + detekcja łączności z siecią.
 - [Zapis danych za pomocą AsyncStorage](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium6#zapis-danych-za-pomoc%C4%85-asyncstorage)
 - [Synchronizacja danych w zależności od połączenia z internetem](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium6#synchronizacja-danych-w-zale%C5%BCno%C5%9Bci-od-po%C5%82%C4%85czenia-z-internetem)
 
+------------------------------------
+
 ## Nawigacja
 Utworzyłam ekran główny, który umożliwia przejście do wybranego ekranu. 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/1.png?raw=true)
+
+-----------------------------------
 
 ## Ładowanie obrazków
 Na pierwszym ekranie umieściłam dwa obrazki. Pierwszy z nich jest ładowany z wykorzystaniem **'uri'**.
@@ -25,6 +29,8 @@ A drugi za pomocą **require()**, który wymaga umieszczenie pliku z obrazkiem g
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/3.png?raw=true)
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/1.jpg?raw=true)
+
+--------------------------------------
 
 ## Zmiana rozmiaru obrazka za pomocą Slidera
 Zainstalowałam Slider (@react-native-community/slider) i go zaimportowałam. Wykorzystałam **hook stanu**, by móc zmieniać wartość skali. Utworzyłam też funkcje **changeSize**, która wykorzystuje metodę zdefiniowaną w hooku. 
@@ -45,6 +51,8 @@ Gdy przesuwamy Slider w lewo obrazek zmniejsza się. Gdy przesuniemy w prawo, zw
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/3a.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/3b.jpg?raw=true)
 
+-----------------------------------
+
 ## Leniwe ładowanie obrazka i ikony
 Do zrealizowania leniwego ładowania wykorzystałam komponent **Image z 'react-native-elements'**. Ma on opcję **PlaceholderContent**, która sprawia, że gdy obrazek ładuje się można wyświetlić np. animację ładowania. Ja wykorzystałam do tego komponent **ActivityIndicator**. Dodatkowo, by łatwiej uchwycić na screenie działanie aplikacji, zdefiniowałam opcję **transition**, która przyciemnia obrazek na czas ładowania, dodatkowo ustawiłam czas tego przyciemniania na 1200 (**transitionDuration**)
 
@@ -62,6 +70,8 @@ Jak włączymy ekran obrazek zaczyna się ładować i możemy zauważyć kręcą
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/4a.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/4.jpg?raw=true)
+
+-----------------------------------
 
 ## Detekcja łączności z siecią
 Do pobierania informacji dotyczących sieci wykorzystałam **NetInfo**. Na początku w stanie zdefiniowałam kilka zmiennych: **isConnected**, w której zapisywane jest, czy jesteśmy połączeni z siecią, **type** - typ naszego połączenia, **frequency** - częstotliwość połączenia, **ipAddress** - nasz adres IP, **strength** - moc, siła połączenia i **isWifiEnabled** - czy Wifi jest dostępne. 
@@ -84,6 +94,8 @@ Po lewej umieściłam to, co wyświetlane jest, gdy mamy dostęp do internetu, a
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/5.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/5a.jpg?raw=true)
+
+-----------------------------------
 
 ## Zapis danych za pomocą AsyncStorage
 Zainstalowałam i zaimportowałam **AsyncStorage** z **@react-native-async-storage/async-storage**. W stanie umieściłam jedną zmienną **key**, w której będę przechowywać wartość klucza zapisywanych danych. 
@@ -128,5 +140,7 @@ Dla sprawdzenia, gdy teraz będziemy chcieli odczytać wartość z kluczem 0, wy
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6c.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6g.jpg?raw=true)
+
+-----------------------------------
 
 ## Synchronizacja danych w zależności od połączenia z internetem
