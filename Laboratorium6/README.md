@@ -46,6 +46,23 @@ Gdy przesuwamy Slider w lewo obrazek zmniejsza się. Gdy przesuniemy w prawo, zw
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/3b.jpg?raw=true)
 
 ## Leniwe ładowanie obrazka i ikony
+Do zrealizowania leniwego ładowania wykorzystałam komponent **Image z 'react-native-elements'**. Ma on opcję **PlaceholderContent**, która sprawia, że gdy obrazek ładuje się można wyświetlić np. animację ładowania. Ja wykorzystałam do tego komponent **ActivityIndicator**. Dodatkowo, by łatwiej uchwycić na screenie działanie aplikacji, zdefiniowałam opcję **transition**, która przyciemnia obrazek na czas ładowania, dodatkowo ustawiłam czas tego przyciemniania na 1200 (**transitionDuration**)
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7.png?raw=true)
+
+Poniżej wyświetliłam osiem rzędów w każdym po dziewięć ikon. Wykorzystałam do tego trzy grupy ikon: **AntDesign**, **Entypo**, **Feather**. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/8.png?raw=true)
+
+Każde wyświetlenie ikony zapisuje się w ten sam sposób, dlatego pokażę tylko jeden z rzędów jakie utworzyłam.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/9.png?raw=true)
+
+Jak włączymy ekran obrazek zaczyna się ładować i możemy zauważyć kręcący się ActivityIndicator. Po załadowaniu widać obrazek, a poniżej znajdują się ikony.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/4a.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/4.jpg?raw=true)
+
 ## Detekcja łączności z siecią
 ## Zapis danych za pomocą AsyncStorage
 ## Synchronizacja danych w zależności od połączenia z internetem
