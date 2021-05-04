@@ -86,4 +86,25 @@ Po lewej umieściłam to, co wyświetlane jest, gdy mamy dostęp do internetu, a
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/5a.jpg?raw=true)
 
 ## Zapis danych za pomocą AsyncStorage
+Zainstalowałam i zaimportowałam **AsyncStorage** z **@react-native-async-storage/async-storage**. W stanie umieściłam jedną zmienną **key**, w której będę przechowywać wartość klucza zapisywanych danych. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/14.png?raw=true)
+
+Utworzyłam funkcję **save**, która umożliwia zapisywanie danych za pomocą AsyncStorage. Użytkownik podaje wartość do zapisania, a klucz generowany jest sam, zaczynając od 0, każdy kolejny klucz jest zwiększany o 1.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/15.png?raw=true)
+
+Kolejna utworzona przeze mnie metoda to **read**, która odczytuje wartość o podanym kluczu. Jeśli wartość dla podanego klucza jest pusta to zwraca informację, że nie ma żadnych danych z takim kluczem.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/16.png?raw=true)
+
+Ostatnia metoda **clear** usuwa wartość o podanym kluczu. Sprawdzane jest najpierw czy pod podanym kluczem znajduje się jakaś dana, jeśli nie to dostajemy komunikat, że nie ma danej o takim kluczu.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/17.png?raw=true)
+
+Poniżej w sekcji **render()** umieściłam trzy komponenty **TextInput**. Po zatwierdzeniu wpisania tekstu (**onSubmitEditing**) wywoływane są odpowiednie funkcje.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/18.png?raw=true)
+
+
 ## Synchronizacja danych w zależności od połączenia z internetem
