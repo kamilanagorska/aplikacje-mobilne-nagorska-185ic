@@ -106,5 +106,27 @@ Poniżej w sekcji **render()** umieściłam trzy komponenty **TextInput**. Po za
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/18.png?raw=true)
 
+### Zapisywanie danych
+Wprowadzamy dane. Po wciśnięciu guzika **OK** na klawiaturze, wyświetla się komunikat o powodzeniu zapisywania danych. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6a.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6b.jpg?raw=true)
+
+### Odczytywanie danych
+By odczytać dane, wpisujemy wartość klucza i wciskamy **OK** na klawiaturze. Wyświetlany zostaje komunikat z tekstem zapisanym pod podanym kluczem.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6c.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6d.jpg?raw=true)
+
+### Usuwanie danych
+Do usuwania danych musimy podać klucz. Po wciśnięciu **OK** na klawiaturze, wyświetla się komunikat, że usuwanie powiodło się.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6e.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6f.jpg?raw=true)
+
+Dla sprawdzenia, gdy teraz będziemy chcieli odczytać wartość z kluczem 0, wyświetlony zostanie komunikat, że nie ma takiego klucza.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6c.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6g.jpg?raw=true)
 
 ## Synchronizacja danych w zależności od połączenia z internetem
