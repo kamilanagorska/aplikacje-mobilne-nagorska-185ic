@@ -21,5 +21,5 @@
 [Obsługa obrazów + tryb offline](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium6)
 
 ### Laboratorium 7
-Geolokacja + mapy [WKRÓTCE]
+[Wykorzystanie bazy danych w aplikacji mobilnej](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7)
 
