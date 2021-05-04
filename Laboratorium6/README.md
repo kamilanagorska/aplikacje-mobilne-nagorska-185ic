@@ -144,3 +144,18 @@ Dla sprawdzenia, gdy teraz będziemy chcieli odczytać wartość z kluczem 0, wy
 -----------------------------------
 
 ## Synchronizacja danych w zależności od połączenia z internetem
+Wykorzystałam tutaj **Slider** i **NetInfo**. W stanie zdefiniowałam trzy zmienne **localValue** - przechowuje dane lokalne, **isConnected** - informacja o połączeniu z siecią, **onlineValue** - dane synchronizowane po połączeniu z internetem.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/19.png?raw=true)
+
+Utworzyłam funkcję **checkConnection**, która sprawdza za pomocą **NetInfo** czy mamy połączenie z internetem. Jeśli tak i wartość zapisana lokalnie różni się od tej 'online' to następuje synchronizacja danych.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/20.png?raw=true)
+
+Drugą utworzoną funkcją przeze mnie jest **saveData**. Przyjmuje ona na wejściu wartość, która w zależności czy mamy połączenie z internetem zapisywana jest pod zmiennymi **localValue** i **onlineValue** lub tylko pod **localValue**.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/21.png?raw=true)
+
+W **componentDidMount** użyłam **setInterval** do wywoływania metody **checkConnection** co sekunde, w celu sprawdzania połączenia i synchronizacji danych. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/22.png?raw=true)
