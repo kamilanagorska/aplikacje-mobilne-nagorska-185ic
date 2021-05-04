@@ -68,6 +68,10 @@ Do pobierania informacji dotyczących sieci wykorzystałam **NetInfo**. Na pocz�
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/10.png?raw=true)
 
+W **componentDidMount** umieściłam **fetcha**, który umożliwia pobranie informacji dotyczących połączenia z wykorzystaniem NetInfo.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/11.png?raw=true)
+
 
 ## Zapis danych za pomocą AsyncStorage
 ## Synchronizacja danych w zależności od połączenia z internetem
