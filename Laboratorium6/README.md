@@ -80,5 +80,10 @@ Następnie wyświetlam wszystkie pobrane wcześniej informacje dotyczące połą
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/13.png?raw=true)
 
+Po lewej umieściłam to, co wyświetlane jest, gdy mamy dostęp do internetu, a po prawej to, co zostaje wyświetlone, gdy nie mamy dostępu do internetu.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/5.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/5a.jpg?raw=true)
+
 ## Zapis danych za pomocą AsyncStorage
 ## Synchronizacja danych w zależności od połączenia z internetem
