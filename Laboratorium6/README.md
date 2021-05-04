@@ -13,7 +13,7 @@ Aplikacja wyświetlająca obrazy + detekcja łączności z siecią.
 ------------------------------------
 
 ## Nawigacja
-Utworzyłam ekran główny, który umożliwia przejście do wybranego ekranu. 
+Utworzyłam menu, które umożliwia przejście do wybranego ekranu. 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/1.png?raw=true)
 
@@ -28,12 +28,12 @@ A drugi za pomocą **require()**, który wymaga umieszczenie pliku z obrazkiem g
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/3.png?raw=true)
 
-![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/1.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/2.jpg?raw=true)
 
 --------------------------------------
 
 ## Zmiana rozmiaru obrazka za pomocą Slidera
-Zainstalowałam Slider (@react-native-community/slider) i go zaimportowałam. Wykorzystałam **hook stanu**, by móc zmieniać wartość skali. Utworzyłam też funkcje **changeSize**, która wykorzystuje metodę zdefiniowaną w hooku. 
+Zainstalowałam **Slider** (**@react-native-community/slider**) i go zaimportowałam. Wykorzystałam **hook stanu**, by móc zmieniać wartość skali. Utworzyłam też funkcje **changeSize**, która wykorzystuje metodę zdefiniowaną w hooku. 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/4.png?raw=true)
 
@@ -102,7 +102,7 @@ Zainstalowałam i zaimportowałam **AsyncStorage** z **@react-native-async-stora
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/14.png?raw=true)
 
-Utworzyłam funkcję **save**, która umożliwia zapisywanie danych za pomocą AsyncStorage. Użytkownik podaje wartość do zapisania, a klucz generowany jest sam, zaczynając od 0, każdy kolejny klucz jest zwiększany o 1.
+Utworzyłam funkcję **save**, która umożliwia zapisywanie danych za pomocą AsyncStorage. Użytkownik podaje wartość do zapisania, a klucz generowany jest sam, zaczynając od 0, każdy kolejny klucz jest zwiększany o 1, pamiętając, że klucz jest stringiem.
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/15.png?raw=true)
 
@@ -184,6 +184,6 @@ Po wyłączeniu internetu pokazuje się informacja, że nie mamy połączenia. G
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7d.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7e.jpg?raw=true)
 
-Gdy teraz włączymy internet dane automatycznie się zsynchronizują. 
+Gdy teraz włączymy internet dane automatycznie się synchronizują. 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7f.jpg?raw=true)
