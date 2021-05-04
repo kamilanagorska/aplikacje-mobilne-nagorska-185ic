@@ -159,3 +159,31 @@ Drugą utworzoną funkcją przeze mnie jest **saveData**. Przyjmuje ona na wejś
 W **componentDidMount** użyłam **setInterval** do wywoływania metody **checkConnection** co sekunde, w celu sprawdzania połączenia i synchronizacji danych. 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/22.png?raw=true)
+
+W **render()** umieściłam napis 'Połączenie z internetem' i odpowiednią ikonkę w zależności od stanu połączenia z siecią.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/23.png?raw=true)
+
+Poniżej umieściłam **Slider**, gdy przesuwamy go wywoływana jest metoda **saveData**. Domyślnie ustawioną wartością dla Slidera jest 1.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/24.png?raw=true)
+
+Na dole wyświetlam wartości **localValue** i **onlineValue**.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/25.png?raw=true)
+
+Po włączeniu tego ekranu wyświetla nam się informacja, że mamy połączenie z internetem. Po przesunięciu Slidera wartość lokalna i online zmieniają się jednocześnie.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7a.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7b.jpg?raw=true)
+
+Po wyłączeniu internetu pokazuje się informacja, że nie mamy połączenia. Gdy przesuwamy Slider zmienia się jedynie wartość lokalna.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7c.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7d.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7e.jpg?raw=true)
+
+Gdy teraz włączymy internet dane automatycznie się zsynchronizują. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/7f.jpg?raw=true)
