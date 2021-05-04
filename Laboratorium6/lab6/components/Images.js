@@ -15,7 +15,7 @@ export default function Images() {
             <Text style={[styles.img.text, {textAlign: 'center'}]}>Obrazek ładowany z użyciem metody require()</Text>
         </View>
         <View>
-                <Image style={styles.img.image} source={require('./image.jpg')}/>
+                <Image style={styles.img.image} source={require('./img/image.jpg')}/>
         </View>        
     </View>
     );

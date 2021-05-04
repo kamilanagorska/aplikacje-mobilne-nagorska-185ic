@@ -16,6 +16,16 @@ Utworzyłam ekran główny, który umożliwia przejście do wybranego ekranu.
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/1.png?raw=true)
 
 ## Ładowanie obrazków
+Na pierwszym ekranie umieściłam dwa obrazki. Pierwszy z nich jest ładowany z wykorzystaniem 'uri'.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/2.png?raw=true)
+
+A drugi za pomocą require(), który wymaga umieszczenie pliku z obrazkiem gdzieś w naszym projekcie. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/3.png?raw=true)
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/1.jpg?raw=true)
+
 ## Zmiana rozmiaru obrazka za pomocą Slidera
 ## Leniwe ładowanie obrazka i ikony
 ## Detekcja łączności z siecią
