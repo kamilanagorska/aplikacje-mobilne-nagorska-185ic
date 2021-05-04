@@ -27,6 +27,18 @@ A drugi za pomocą require(), który wymaga umieszczenie pliku z obrazkiem gdzie
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/1.jpg?raw=true)
 
 ## Zmiana rozmiaru obrazka za pomocą Slidera
+Zainstalowałam slider (@react-native-community/slider) i go zaimportowałam. Wykorzystałam **hook stanu**, by móc zmieniać wartość skali. Utworzyłam też funkcje **changeSize**, która wykorzystuje metodę zdefiniowaną w hooku. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/4.png?raw=true)
+
+Poniżej umieściłam **slider**. Jego minimalną wartością jest 0.1, a maksymalną 1. Domyślnie ustawioną wartością jest 1. Gdy zaczniemy go przesuwać wywoływane jest **changeSize**. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/5.png?raw=true)
+
+By zmieniać rozmiar zdjęcia wykorzystałam **transform** ze skalą równą zmiennej zdefiniowanej w hooku stanu.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/6.png?raw=true)
+
 ## Leniwe ładowanie obrazka i ikony
 ## Detekcja łączności z siecią
 ## Zapis danych za pomocą AsyncStorage
