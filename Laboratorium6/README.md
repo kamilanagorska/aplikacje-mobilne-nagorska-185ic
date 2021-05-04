@@ -11,6 +11,7 @@ Aplikacja wyświetlająca obrazy + detekcja łączności z siecią.
 - [Synchronizacja danych w zależności od połączenia z internetem](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium6#synchronizacja-danych-w-zale%C5%BCno%C5%9Bci-od-po%C5%82%C4%85czenia-z-internetem)
 
 ## Nawigacja
+Utworzyłam ekran główny, który umożliwia przejście do wybranego ekranu. 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/1.png?raw=true)
 
