@@ -64,5 +64,10 @@ Jak włączymy ekran obrazek zaczyna się ładować i możemy zauważyć kręcą
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/4.jpg?raw=true)
 
 ## Detekcja łączności z siecią
+Do pobierania informacji dotyczących sieci wykorzystałam **NetInfo**. Na początku w stanie zdefiniowałam kilka zmiennych: **isConnected**, w której zapisywane jest, czy jesteśmy połączeni z siecią, **type** - typ naszego połączenia, **frequency** - częstotliwość połączenia, **ipAddress** - nasz adres IP, **strength** - moc, siła połączenia i **isWifiEnabled** - czy Wifi jest dostępne. 
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium6/screenshots/10.png?raw=true)
+
+
 ## Zapis danych za pomocą AsyncStorage
 ## Synchronizacja danych w zależności od połączenia z internetem
