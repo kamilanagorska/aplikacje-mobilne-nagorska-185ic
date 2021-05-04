@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import NetInfo from "@react-native-community/netinfo";
 import {View, Text} from 'react-native';
 import styles from './style'
+import { AntDesign } from '@expo/vector-icons'; 
 
 export default class NetInf extends Component {
   constructor(){
@@ -9,10 +10,10 @@ export default class NetInf extends Component {
     this.state ={
       isConnected: false,
       type: '',
-      isInternetReachable: false,
       frequency: 0,
       ipAddress: '',
-      strength: 0
+      strength: 0,
+      isWifiEnabled: false
     };
   }
   async componentDidMount() {
@@ -20,10 +21,10 @@ export default class NetInf extends Component {
       this.setState({
         isConnected: response.isConnected,
         type: response.type,
-        isInternetReachable: response.isInternetReachable,
         frequency: response.details.frequency,
         ipAddress: response.details.ipAddress,
-        strength: response.details.strength
+        strength: response.details.strength,
+        isWifiEnabled: response.isWifiEnabled
       })
     })
   }
@@ -33,13 +34,17 @@ export default class NetInf extends Component {
           <View style={styles.img.explain}>
             <Text style={[styles.img.text, {textAlign: 'center'}]}>Detekcja łączności z siecią z wykorzystaniem NetInfo</Text>
         </View>
+        <View style={{alignItems: 'center'}}>
+          <Text style={styles.img.text}>Połączenie z internetem</Text>
+          {this.state.isConnected
+          ? <AntDesign name="check" size={24} color="green" /> : <AntDesign name="close" size={24} color="red" /> }
+        </View>
         <View style={styles.img.example}> 
-        <Text style={styles.img.text}>Połączenie z internetem: {this.state.isConnected?`Tak`:`Nie`}</Text>
+        <Text style={styles.img.text}>Adres IP: {this.state.ipAddress ? this.state.ipAddress : 'Brak'}</Text>
         <Text style={styles.img.text}>Typ połączenia: {this.state.type}</Text>
-        <Text style={styles.img.text}>Czy osiągalny internet: {this.state.isInternetReachable?`Tak`:`Nie`}</Text>
-        <Text style={styles.img.text}>Częstotliwość połączenia: {this.state.frequency} MHz</Text>
-        <Text style={styles.img.text}>Moc sygnału (0 - 100): {this.state.strength}</Text>
-        <Text style={styles.img.text}>Adres IP: {this.state.ipAddress}</Text>
+        <Text style={styles.img.text}>Częstotliwość połączenia: {this.state.frequency ? this.state.frequency : '0'} MHz</Text>
+        <Text style={styles.img.text}>Moc sygnału: {this.state.strength ? this.state.strength : '0'}%</Text>
+        <Text style={styles.img.text}>Dostępność Wifi: {this.state.strength ? 'Tak' : 'Nie'}</Text>
         </View>
       </View>
     );

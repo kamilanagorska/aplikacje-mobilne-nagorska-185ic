@@ -2,6 +2,7 @@ import * as React from 'react';
 import { TouchableOpacity, View, Text} from 'react-native';
 import Slider from '@react-native-community/slider';
 import NetInfo from "@react-native-community/netinfo";
+import { AntDesign } from '@expo/vector-icons'; 
 import styles from './style'
 
 export default class DataSyn extends React.Component {
@@ -47,6 +48,11 @@ render(){
         <View style={styles.img.explain}>
           <Text style={[styles.img.text, {textAlign: 'center'}]}>Synchronizacja danych aplikacji w przypadku łączności z siecią i jej braku</Text>
       </View>
+      <View style={{alignItems: 'center'}}>
+          <Text style={styles.img.text}>Połączenie z internetem</Text>
+          {this.state.isConnected
+          ? <AntDesign name="check" size={24} color="green" /> : <AntDesign name="close" size={24} color="red" /> }
+        </View>
       <View style={styles.img.slider}>
           <Slider style={{width: 300, height: 40}}
               minimumValue={1}

@@ -37,6 +37,21 @@ export default class AsyncS extends React.Component {
           alert("Odczytanie danych nie powiodło się!")
         }
       }
+
+      clear = async (key) => {
+        try {
+          const value = await AsyncStorage.getItem(key)
+          if(value !== null) {
+            await AsyncStorage.removeItem(key)
+            alert("Usunięto wartość o zadanym kluczu")
+          }
+          else(
+              alert("Żadna wartość nie jest zapisana pod tym kluczem!")
+          )
+        } catch(e) {
+          alert("Usuwanie nie powiodło się!")
+        }
+      }
     render(){
         return(
             <View style={styles.img.container}>
@@ -55,6 +70,12 @@ export default class AsyncS extends React.Component {
                     style={styles.img.input}
                     placeholder="Dowolny klucz"
                     onSubmitEditing={event => {this.read(event.nativeEvent.text)}}
+                    />
+                     <Text style={[styles.img.text, {textAlign: 'center'}]}>Wpisz wartość klucza zmiennej, którą usunąć:</Text>
+                    <TextInput
+                    style={styles.img.input}
+                    placeholder="Dowolny klucz"
+                    onSubmitEditing={event => {this.clear(event.nativeEvent.text)}}
                     />
                 </View>
             </View>

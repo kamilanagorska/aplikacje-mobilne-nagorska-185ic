@@ -63,7 +63,7 @@ styles.img = StyleSheet.create({
         marginLeft: 20,
         marginRight: 20,
         borderRadius: 10,
-        height: 170,
+        height: 220,
     },
     
     image: {
