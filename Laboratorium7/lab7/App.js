@@ -16,22 +16,23 @@ function App() {
       <Stack.Screen options={{
         title: 'Laboratorium 7',
         headerStyle: {
-          backgroundColor: '#b0a99d',
+          backgroundColor: '#efd9ae',
         },
         headerTintColor: 'white',
         headerTitleStyle: {
           fontSize: 30,
           textAlign: 'center',
-          color: 'white'
+          color: '#a06b3b',
+          fontWeight: 'bold'
         }
       }}
       name="home" component={Home} />
 
       {/*drugi ekran*/}
         <Stack.Screen options={{
-        title: 'Animal Crossing Villagers',
+        title: '',
         headerStyle: {
-          backgroundColor: '#b0a99d',
+          backgroundColor: '#efd9ae',
         },
         headerTintColor: 'white',
         headerTitleStyle: {
