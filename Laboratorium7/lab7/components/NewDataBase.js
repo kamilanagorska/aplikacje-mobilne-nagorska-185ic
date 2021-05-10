@@ -28,7 +28,13 @@ function Animals({ seen: seenHeading, onPressAnimal }) {
     const heading = seenHeading ? "'Owned' Villagers:" : "'Wanted' Villagers:";
   
     if (animals === null || animals.length === 0) {
-      return null;
+      return (
+        <View style={styles.home.example}>
+        <Text style={[styles.home.text, {textAlign: 'center', paddingTop: 15, fontSize: 25, paddingBottom: 20}]}>{heading}</Text>
+        <ScrollView>
+        </ScrollView>    
+      </View>
+      )
     }
     return(
         <View style={styles.home.example}>

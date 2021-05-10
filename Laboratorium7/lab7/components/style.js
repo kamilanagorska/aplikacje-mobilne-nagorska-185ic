@@ -52,10 +52,10 @@ styles.home = StyleSheet.create({
         width: 300,
         height: 199,
         alignSelf: 'center',
-        marginTop: 5
+        marginTop: 30
     },
     backLog: {
-        height: 220,
+        height: 250,
         alignItems: 'center'
     },
     backApp: {
