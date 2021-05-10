@@ -49,18 +49,21 @@ styles.home = StyleSheet.create({
         marginTop: 20
     },
     logo: {
-        width: 902,
-        height: 599,
+        width: 300,
+        height: 199,
         alignSelf: 'center',
+        marginTop: 5
     },
     backLog: {
-        flex: 0.25,
-        justifyContent: 'center',
+        height: 220,
         alignItems: 'center'
     },
+    backApp: {
+        flex: 1
+    },
     btn: {
-        marginTop: 55,
-        alignItems: 'center'
+        alignItems: 'center',
+        marginBottom: 20
     },
     btntxt: {
         fontSize: 16,
@@ -81,9 +84,17 @@ styles.home = StyleSheet.create({
     },
     button3: {
         backgroundColor: '#c68f4c',
-        padding: 5,
+        padding: 20,
+        paddingLeft: 50,
+        paddingRight: 50,
+        marginBottom: 20,
         borderRadius: 10,
-        marginLeft: 20
+        borderColor: '#a06b3b',
+        borderWidth: 2
+    },
+    txt3:{
+        fontSize: 20,
+        color: '#ffd050'
     },
     bak: {
         marginTop: 20,
@@ -109,13 +120,15 @@ styles.home = StyleSheet.create({
         marginBottom: 30
     },
     example: {
-        backgroundColor: '#b0a99d',
-        marginVertical: 20,
-        marginLeft: 20,
-        marginRight: 20,
+        backgroundColor: '#ffd050',
+        width: '90%',
         borderRadius: 10,
-        height: 220,
-        alignItems: 'center'
+        height: '95%',
+        marginTop: 10,
+        alignItems: 'center',
+        borderColor: '#a06b3b',
+        borderWidth: 2
+
     },
 });
 
