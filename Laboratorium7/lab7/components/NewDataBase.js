@@ -87,7 +87,7 @@ export default function NewDataBase() {
     
       const add = (text) => {
         if (text === null || text === "") {
-          return false;
+          return Alert.alert("Invalid value", "Name can't be null. Please, write something.");
         }
     
         db.transaction(
