@@ -17,7 +17,7 @@ W ramach zajęć utworzyłam prostą aplikację inspirowaną grą Animal Crossin
     - [Animals](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#animals)
     - [NewDataBase](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#newdatabase)
     - [Dodawanie Villagers](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#dodawanie-villagers)
-    - [Wyświetlanie posiadanych Villagers](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#wy%C5%9Bwietlanie-posiadaych-villagers)
+    - [Wyświetlanie posiadanych Villagers](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#wy%C5%9Bwietlanie-posiadanych-villagers)
     - [Wyświetlanie chcianych Villagers](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#wy%C5%9Bwietlanie-chcianych-villagers)
 - [Działanie aplikacji na telefonie](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#dzia%C5%82anie-aplikacji-na-telefonie)
 
@@ -89,6 +89,8 @@ Na ekranie wyświetlane jest logo gry i guzik **New Villager**. Po jego wciśni�
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/11.png?raw=true)
 
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/18.png?raw=true)
+
 ------------------------------------
 
 ### Wyświetlanie posiadanych Villagers
@@ -97,7 +99,7 @@ Umieściłam w aplikacji guzik **Show 'owned' Villagers**, po jego wciśnięciu 
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/12.png?raw=true)
 
-Gdy wciśniemy na któreś ze zwierzaków, wyświetlany zostaje **Aler** z pytaniem **What do you want to do?** i trzema opcjami:
+Gdy wciśniemy na któreś ze zwierzaków, wyświetlany zostaje **Alert** z pytaniem **What do you want to do?** i trzema opcjami:
 - **Cancel** - anulowanie akcji
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/13.png?raw=true)
@@ -140,7 +142,7 @@ Gdybyśmy nie wpisali żadnego imienia w **TextInput**, wyświetla się **Alert*
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/16.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/17.jpg?raw=true)
 
-Gdy wciśniemy Molly wyświetla się **Alert** z opcjami do wyboru. Gdy wciśniemy **Cancel**, **Alert** zamyka się.
+Gdy wciśniemy Molly wyświetla się **Alert** z opcjami do wyboru. Po wciśnięciu **Cancel**, **Alert** zamyka się.
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/8.jpg?raw=true)
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/9.jpg?raw=true)
