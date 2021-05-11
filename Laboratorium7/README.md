@@ -10,6 +10,19 @@ W ramach zajęć utworzyłam prostą aplikację inspirowaną grą Animal Crossin
 
 ------------------------------------
 
+## Spis treści
+- [Opisanie kodu](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#opisanie-kodu)
+    - [Tworzenie/otwieranie bazy danych](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#tworzenieotwieranie-bazy-danych)
+    - [useForceUpdate](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#useforceupdate)
+    - [Animals](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#animals)
+    - [NewDataBase](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#newdatabase)
+    - [Dodawanie Villagers](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#dodawanie-villagers)
+    - [Wyświetlanie posiadanych Villagers](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#wy%C5%9Bwietlanie-posiadaych-villagers)
+    - [Wyświetlanie chcianych Villagers](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#wy%C5%9Bwietlanie-chcianych-villagers)
+- [Działanie aplikacji na telefonie](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/tree/main/Laboratorium7#dzia%C5%82anie-aplikacji-na-telefonie)
+
+------------------------------------
+
 ## Opisanie kodu
 
 ### Tworzenie/otwieranie bazy danych
@@ -78,7 +91,7 @@ Na ekranie wyświetlane jest logo gry i guzik **New Villager**. Po jego wciśni�
 
 ------------------------------------
 
-### Wyświetlanie posiadaych Villagers
+### Wyświetlanie posiadanych Villagers
 
 Umieściłam w aplikacji guzik **Show 'owned' Villagers**, po jego wciśnięciu wyświetla się inny **Modal** z listą posiadanych zwierzaków.
 
@@ -113,5 +126,33 @@ Widok ten działa na takiej samej zasadzie co ten z 'Owned' Villagers. Po wciśn
 
 ## Działanie aplikacji na telefonie
 
+Po włączeniu aplikacji **pierwszy raz** tworzona jest nowa baza, w której nie ma żadnych danych, więc aplikacja nie ma co wyświetlać prócz podstawowych widoków.
 
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/all.png?raw=true)
 
+By **dodać nowe zwierzątko**, wciskamy **New Villager** i wpisujemy imię. Po wciśnięciu **OK** na klawiaturze, **Modal** zamyka się. Gdy wejdziemy teraz w **Show 'wanted' Villagers** wyświetla się dodana przed chwilą Molly.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/add.png?raw=true)
+
+Gdybyśmy nie wpisali żadnego imienia w **TextInput**, wyświetla się **Alert** z informacją, że imię nie może być puste.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/15.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/16.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/17.jpg?raw=true)
+
+Gdy wciśniemy Molly wyświetla się **Alert** z opcjami do wyboru. Gdy wciśniemy **Cancel**, **Alert** zamyka się.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/8.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/9.jpg?raw=true)
+
+Gdy wciśniemy **Change to 'owned'**, Molly znika z listy i pojawia się na liście **'Owned' Villagers**.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/8.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/10.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/11.jpg?raw=true)
+
+Teraz, gdy wciśniemy Molly, znajdującą się na liście **'Owned' Villagers**, wyświetla się nam **Alert** z tymi samymi opcjami co na poprzedniej liście. Wypróbujmy teraz działanie opcji **Delete**. Po jej wciśnięciu Molly znika i nie ma jej na żadnej liście.
+
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/12.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/13.jpg?raw=true)
+![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/14.jpg?raw=true)

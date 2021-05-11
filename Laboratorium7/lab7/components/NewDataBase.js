@@ -185,8 +185,7 @@ export default function NewDataBase() {
                       )
                     }
                 ])
-              }
-              }
+              } }
             />
         </View>
       </Modal>
