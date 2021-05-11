@@ -12,6 +12,8 @@ W ramach zajęć utworzyłam prostą aplikację inspirowaną grą Animal Crossin
 
 ## Opisanie kodu
 
+### Tworzenie/otwieranie bazy danych
+
 By móc korzystać z bazy musiałam zainstalować **expo-sqlite** i umieścić odpowiedni import w kodzie.
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/1.png?raw=true)
@@ -75,15 +77,15 @@ Umieściłam w aplikacji guzik **Show 'owned' Villagers**, po jego wciśnięciu 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/12.png?raw=true)
 
 Gdy wciśniemy na któreś ze zwierzaków, wyświetlany zostaje **Aler** z pytaniem **What do you want to do?** i trzema opcjami:
-- Cancel - anulowanie akcji
+- **Cancel** - anulowanie akcji
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/13.png?raw=true)
 
-- Delete - spowoduje usunięcie zwierzaka
+- **Delete** - spowoduje usunięcie zwierzaka
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/14.png?raw=true)
 
-- Change to 'Wanted' - zmienia status zwierzaka na 'wanted', co powoduje przeniesienie do innej listy.
+- **Change to 'Wanted'** - zmienia status zwierzaka na 'wanted', co powoduje przeniesienie do innej listy.
 
 ![1](https://github.com/kamilanagorska/aplikacje-mobilne-nagorska-185ic/blob/main/Laboratorium7/screenshots/15.png?raw=true)
 
